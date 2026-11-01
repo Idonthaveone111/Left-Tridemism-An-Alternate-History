@@ -112,12 +112,16 @@ Strength: [+ center_strength : strength +]
 
 Dissent: [+ center_dissent : dissent +]
 
+
 **Rightists**
 
 The rightwing of the KMT is the most nakedly opposed to the United Front. Deeply opposed to Communism either out of political conservatism or out of fear of diluting the tenets of Sun Yat-sen, the KMT rightists will do everything within their power to root out Communist influence from China. 
+
+Strength: [+ right_strength : strength +]
+
+Dissent: [+ right_dissent : dissent +]
 
 @military
 go-to: menu
 
 tbd
-
