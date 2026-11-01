@@ -1,1 +1,17 @@
+title: Mod Info
+go-to: flavors
+
+@flavors
+new-page: true
+
+= Left Tridemism: An Alternate History
+
+- @placeholder
+- @root.start: Start game
+- @root: Back
+
+@placeholder
+
+- @flavors: Back
+
 
