@@ -61,7 +61,7 @@ Q.center_dissent = 15;
 Q.right_strength = 10;
 Q.right_dissent = 25;
 
-//outside influence (CCP, democracy)
+// outside influence (CCP, democracy)
 Q.ccp_influence = 0;
 Q.constitutional_influence = 0;
 
@@ -93,7 +93,7 @@ Q.sichuan_relation = 55;
 Q.shanxi_yan_relation = 50;
 Q.shaanxi_feng_relation = 55;
 Q.minor_republican_parties = 35;
-Q.other = 35; //apolitical and minor parties
+Q.other = 35; // apolitical and minor parties
 
 Q.ccp_leader = "Chen Duxiu";
 Q.nanjing_kmt_leader = "Jiang Jieshi";
@@ -129,7 +129,7 @@ Q.unions_reform = 0;
 
 Q.government_control_rural = 0;
 Q.land_reform = 0;
-Q.land_collectivization = 0; //save us mao
+Q.land_collectivization = 0; // save us mao
 Q.tax_reform = 0;
 Q.customs_and_tariff_reform = 0;
 
@@ -144,11 +144,11 @@ Q.rural_tax_upper = 0;
 Q.rural_tax_lower = 0;
 Q.urban_tax_upper = 0;
 Q.urban_tax_lower = 0;
-Q.tariffs = 0; //I think tariffs would've been administered by the maritime customs service and weren't under the control of the government? not that the KMT was the recognized gov of China yet.
+Q.tariffs = 0; // I think tariffs would've been administered by the maritime customs service and weren't under the control of the government? not that the KMT was the recognized gov of China yet.
 
 // demographics of social groups
-Q.peasants = 80; //estimated based on "Mao Zedong and China's 'poor peasants' 1927-1957"
-Q.landlords = 9; //ibid
+Q.peasants = 80; // estimated based on "Mao Zedong and China's 'poor peasants' 1927-1957"
+Q.landlords = 9; // ibid
 Q.workers = 3; // based on Canteens and the Politics of Working-class Diets in Industrial China, 1920–37
 Q.middle_class = 1;
 Q.intellectuals = 2
@@ -156,23 +156,66 @@ Q.bourgeois = 1;
 Q.soldiers = 4;
 
 //Classes and Parties Lists
-Q.classes = ['peasants', 'landlords', 'workers', 'middle_class', 'intellectuals', 'bourgeois', 'soldiers'];
-Q.parties = ['kmt', 'nanjing_kmt', 'ccp', 'yunnan', 'sichuan', 'guangdong', 'guangxi', 'sichuan', 'shanxi', 'shaanxi', 'minor_republican_parties', 'other'];
+Q.classes = ['peasants', 'landlords', 'workers', 'middle_class', 'intellectuals', 'bourgeois', 'soldiers']; // intellectuals includes students
+Q.parties = ['kmt', 'nanjing_kmt', 'ccp', 'minor_republican_parties', 'other'];
+Q.parties_2 = ['yunnan', 'sichuan', 'guangdong', 'guangxi', 'sichuan', 'shanxi', 'shaanxi'] // idk man
 // the "warlord" parties hopefully should not be relevant to popularity stats but im not sure if that's possible yet
-// "party" popularities
+
+// party popularities
 // there are no elections but this could be useful for determining power levels etc
+Q.peasants_kmt = 15;
+Q.peasants_nanjing_kmt = 5;
+Q.peasants_ccp = 25;
+Q.peasants_minor_republican_parties = 0;
+Q.peasants_other = 50;
+
+Q.landlords_kmt = 5;
+Q.landlords_nanjing_kmt = 35; 
+Q.landlords_ccp = 0;
+Q.landlords_minor_republican_parties = 10;
+Q.landlords_other = 50;
+
+Q.workers_kmt = 40;
+Q.workers_nanjing_kmt = 15;
+Q.workers_ccp = 25; 
+Q.workers_minor_republican_parties = 5;
+Q.workers_other = 15;
+
+Q.middle_class_kmt = 25;
+Q.middle_class_nanjing_kmt = 35;
+Q.middle_class_ccp = 10;
+Q.middle_class_minor_republican_parties = 10;
+Q.middle_class_other = 20;
+
+Q.intellectuals_kmt = 30;
+Q.intellectuals_nanjing_kmt = 15;
+Q.intellectuals_ccp = 35;
+Q.intellectuals_minor_republican_parties = 15;
+Q.intellectuals_other = 5;
+
+Q.bourgeois_kmt = 10;
+Q.bourgeois_nanjing_kmt = 55;
+Q.bourgeois_ccp = 5;
+Q.bourgeois_minor_republican_parties = 15;
+Q.bourgeois_other = 15;
+
+Q.soldiers_kmt = 45;
+Q.soldiers_nanjing_kmt = 50;
+Q.soldiers_ccp = 5;
+Q.soldiers_minor_republican_parties = 0;
+Q.soldiers_other = 0;
 
 
 // economics
 // oh god
 Q.budget = 0;
-Q.inflation = 0; //I think I will make this figure qualitative instead of quanitative (i.e. deflationary, stable, low, medium etc) cuz this data does *not* exist lol
+Q.inflation = 0; // I think I will make this figure qualitative instead of quanitative (i.e. deflationary, stable, low, medium etc) cuz this data does *not* exist lol
 
 
 
 
 
-!} //on-arrival closing bracket
+!} // @start on-arrival closing bracket
 
 set-bg: img/China_Map_Background_2.jpg
 new-page: true
