@@ -223,8 +223,6 @@ Q.n_advisors_sov = 1;
 
 
 !} 
-// start closing bracket
-
 set-bg: img/China_Map_Background_2.jpg
 new-page: true
 
