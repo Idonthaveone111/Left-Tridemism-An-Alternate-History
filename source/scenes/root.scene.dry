@@ -252,7 +252,7 @@ Q.chen_gongbo_advisor = 0; // Chen Gongbo labour
 Q.xu_qian_advisor = 0; // Xu Qian justice
 Q.he_xiangning_advisor = 0; // He Xiangning feminism
 Q.zhu_peide_advisor = 0; // Zhu Peide military
-Q.hh_kung_advisor = 0; // H.H. Kung might not be available until later on
+Q.hh_kung_advisor = 0; // HH Kung might not be available until later on
 
 // rightists
 // these guys will mostly? leave after the split and the right becomes fairly inconsequential unless you change that
@@ -260,6 +260,10 @@ Q.jiang_jieshi_advisor = 0; // mr chiang himself military and political splits a
 Q.zhang_renjie_advisor = 0; // Zhang Renjie not really sure tbh maybe some economic stuff 
 Q.li_jishen_advisor = 0; // Li Jishen some economic some military 
 
+// soviet advisors
+// borodin
+Q.blyukher_advisor_sov = 0; // Vasily Blyukher aka Galen military advisor
+Q.roy_advisor_sov = 0; // MN Roy politico
 
 
 
