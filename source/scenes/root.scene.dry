@@ -115,6 +115,7 @@ Q.soviet_relation = 7;
 // ill figure it out later
 Q.united_front_integrity = 0;
 Q.united_front_dissent = 0;
+Q.current_capital = "Guangdong";
 
 // national reforms
 Q.banking_reform = 0;
