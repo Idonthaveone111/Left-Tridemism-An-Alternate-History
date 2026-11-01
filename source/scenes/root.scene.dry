@@ -222,7 +222,17 @@ Q.n_advisors_sov = 1;
 
 
 
-!} // @start on-arrival closing bracket
+!} 
+// start closing bracket
 
 set-bg: img/China_Map_Background_2.jpg
 new-page: true
+
+- @1926_main_mode: Begin
+
+@1926_main_mode
+subtitle: The only difficulty you get!
+on-arrival: difficulty = 0;
+go-to: 1926_main
+
+
