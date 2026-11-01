@@ -215,9 +215,13 @@ Q.industrial_score = 0; // kinda just a generic score
 Q.military_industry = 0; // could be useful
 Q.rural_vitality = 0; // represents the general wellbeing of agriculture and rural villages, might effect growth and budget etc
 
+// timers
+Q.timers = ['advisor_action'];
+
 // advisor stuff
 Q.n_advisors = 3;
 Q.n_advisors_sov = 1;
+Q.advisor_action_timer = 0;
 
 
 
