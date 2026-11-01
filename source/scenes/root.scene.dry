@@ -222,6 +222,40 @@ Q.timers = ['advisor_action'];
 Q.n_advisors = 3;
 Q.n_advisors_sov = 1;
 Q.advisor_action_timer = 0;
+Q.advisor_sov_action_timer = 0;
+
+// starting advisors
+Q.sun_fo_advisor = 1; // Sun Fo centrist political and constitutional
+Q.song_qingling_advisor = 1; // Song Qingling leftist political organisation
+Q.tv_soong_advisor = 1; // T.V. Soong centrist but leans to the right finance
+Q.borodin_advisor_sov = 1; // Mikhail Borodin soviet advisor 
+
+// communists in the united front
+Q.tan_pingshan_advisor = 0; // Tan Pingshan agriculture?
+Q.su_zhaozheng_advisor = 0; // Su Zhaozheng labour?
+Q.chen_duxiu_advisor = 0; // Chen Duxiu generic communist politics or unions?
+Q.mao_zedong_advisor = 0; // Mao Zedong peasant organisation
+Q.zhu_de_advisor = 0; // Zhu De military
+
+// leftists
+// song qingling
+Q.wang_jingwei_advisor = 0; // Wang Jingwei special diplo options with jiang and warlords
+Q.eugene_chen_advisor = 0; // Eugene Chen foreign advisor
+Q.tan_yankai_advisor = 0; // Tan Yankai general politics
+Q.deng_yanda_advisor = 0; // Deng Yanda military or peasants
+Q.gu_mengyu_advisor = 0; // Gu Mengyu propaganda or education
+Q.chen_gongbo_advisor = 0; // Chen Gongbo labour
+
+// centrists
+// sun fo
+// tv soong
+Q.xu_qian_advisor = 0; // Xu Qian justice
+Q.he_xiangning_advisor = 0; // He Xiangning feminism
+Q.zhu_peide_advisor = 0; // Zhu Peide military
+Q.hh_kung_advisor = 0; // H.H. Kung might not be available until later on
+
+// rightists
+// these guys will mostly? leave after the split and the right becomes fairly inconsequential unless you change that
 
 
 
