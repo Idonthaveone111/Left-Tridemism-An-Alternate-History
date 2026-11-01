@@ -8,4 +8,11 @@ if (Q.advisor_action_timer <= 0) {
 } else {
     Q.pinnedCardsDescription = 'Advisors - next action available in ' + Q.advisor_action_timer + ' weeks';
 }
+if (Q.advisor_sov_action_timer <= 0) {
+    Q.pinnedCardsDescription = 'Soviet Advisors - an action is available';
+} else if (Q.advisor_action_timer == 1) {
+    Q.pinnedCardsDescription = 'Soviet Advisors - next action available in 1 week';
+} else {
+    Q.pinnedCardsDescription = 'Soviet Advisors - next action available in ' + Q.advisor_sov_action_timer + ' weeks';
+}
 !}
