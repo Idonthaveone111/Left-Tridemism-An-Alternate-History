@@ -1,4 +1,4 @@
-# Social Democracy: An Alternate History
+# Left Tridemism: An Alternate History
 
 ## Included Libraries
 
