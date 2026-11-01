@@ -98,8 +98,8 @@ Q.guangxi_relation = 50;
 Q.sichuan_relation = 55;
 Q.shanxi_yan_relation = 50;
 Q.shaanxi_feng_relation = 55;
-Q.minor_republican_parties = 35;
-Q.other = 35; // apolitical and minor parties
+Q.minor_republican_parties_relation = 35;
+Q.other_relation = 35; // apolitical and minor parties
 
 Q.ccp_leader = "Chen Duxiu";
 Q.nanjing_kmt_leader = "Jiang Jieshi";
