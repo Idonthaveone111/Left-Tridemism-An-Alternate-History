@@ -75,6 +75,7 @@ Q.right_abandons = 0;
 Q.united_front_broken = 0;
 Q.united_front_integrity = 0;
 Q.united_front_dissent = 0;
+Q.wuhan_nanjing_split = 0;
 
 // support for the revolution
 Q.rural_revolutionary_ccp = 0;
