@@ -23,7 +23,7 @@ go-to: menu
 
 Although the "Republic of China" is notionally ruled by a central government based in Beijing, in practice this government's authority is extremely weak, especially in the South. The government is torn between ever-dividing factions and is subject to extreme croynism and abuse. Over most of the nation, authority rests in the hands of local warlords, generals, and other petty strongmen. There are surely even remote corners of the nation that are not even aware the old Qing dynasty fell at all!
 
-The exception to this lawlessness lies here in the Revolutionary Nationalist Government based out of [if started == 0: Guangzhou?][? if current_capital == "guangzhou": Guangzhou?][? if current_capital == "wuhan": Wuhan?][? if current_capital == "nanjing": Nanjing?]. It is here that the Chinese Nationalist Party, the Kuomintang, has launched its long awaited campaign to reunify the nation under the principles of Sun Yat-sen, in the name of prosperity for all and against foreign imperialism.
+The exception to this lawlessness lies here in the Revolutionary Nationalist Government based out of [? if started != 0: Guangzhou?][? if current_capital == "guangzhou": Guangzhou?][? if current_capital == "wuhan": Wuhan?][? if current_capital == "nanjing": Nanjing?]. It is here that the Chinese Nationalist Party, the Kuomintang, has launched its long awaited campaign to reunify the nation under the principles of Sun Yat-sen, in the name of prosperity for all and against foreign imperialism.
 
 
 @china_timeline
