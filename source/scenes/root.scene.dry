@@ -1,1 +1,154 @@
+title: Root Scene
+new-page: true
+go-to: post_event if started = 1; start_menu if started = 0
 
+@start_menu
+new-page: true
+go-to: start_menu_2
+
+= Left Tridemism: An Alternate History
+
+@start_menu_2
+
+- @start_1: Start game
+- @modinfo: Mod Info
+- @credits: Credits
+
+@start_1
+go-to: start
+
+@start
+on-arrival: {!
+Q.started = 1;
+// time elapsed (in months)
+Q.time = 1;
+Q.year = 1926;
+Q.month = 11;
+Q.week = 1;
+Q.week_checked = 0;
+// how many actions have been taken this month?
+Q.month_actions = 0;
+
+// 0 = normal difficulty, 1 = hard mode, 2 = hard mode no saves
+Q.difficulty = 0;
+Q.historical_mode = 0;
+// old demographics
+
+Q.old_demographics = 0;
+// use decimals for reichstag seats
+// TODO: not yet implemented
+Q.use_decimals = 0;
+
+// party resources
+Q.resources = 2;
+// party dues
+Q.dues = 5;
+
+// the state of the party
+// overall dissent reduces every increase in party support.
+Q.dissent = 0.1;
+Q.dissent_percent = 10;
+
+// factions
+Q.factions = ['ccp_dual_members', 'left', 'center', 'right'];
+// should this be normalized to 100%?
+Q.ccp_dual_members_strength = 15;
+Q.ccp_dual_members_dissent = 10;
+Q.left_strength = 35;
+Q.left_dissent = 5;
+Q.center_strength = 25;
+Q.center_dissent = 15;
+Q.right_strength = 10;
+Q.right_dissent = 25;
+
+//outside influence (CCP, democracy)
+Q.ccp_influence = 0;
+Q.constitutional_influence = 0;
+
+// secret events...
+Q.ccp_split = 0;
+Q.left_split = 0;
+Q.center_abandons = 0;
+Q.right_abandons = 0;
+
+// support for the revolution
+Q.rural_revolutionary_ccp = 0;
+Q.rural_revolutionary_kmt = 0;
+Q.urban_revolutionary_ccp = 0;
+Q.urban_revolutionary_kmt = 0;
+
+// revolutionary unrest
+Q.rural_unrest = 0;
+Q.urban_unrest = 0;
+Q.industrialist_unrest = 0;
+
+// organizations
+// inter-party relations
+Q.ccp_relation = 65;
+Q.jiang_relation = 30;
+Q.yunnan_relation = 60;
+Q.guangdong_relation = 50;
+Q.guangxi_relation = 50;
+Q.sichuan_relation = 55;
+Q.shanxi_yan_relation = 50;
+Q.shaanxi_feng_relation = 55;
+Q.minor_republicans_relation = 35;
+
+Q.ccp_leader = "Chen Duxiu";
+Q.jiang_leader = "Jiang Jieshi";
+Q.yunnan_leader = "Yunnan Warlords";
+Q.guangdong_leader = "Li Jishen";
+Q.guangxi_leader = "Li Zongren";
+Q.sichuan_leader = "Sichuan Warlords";
+Q.shanxi_yan_leader = "Yan Xishan";
+Q.shaanxi_feng_leader = "Feng Yuxiang";
+Q.minor_republicans_leader = "Minor Republican Parties";
+
+// foreign powers
+Q.west_relation = 5;
+Q.japan_relation = 4;
+Q.soviet_relation = 7;
+
+// state of the government
+// ill figure it out later
+Q.united_front_integrity = 0;
+Q.united_front_dissent = 0;
+
+// national reforms
+Q.banking_reform = 0;
+Q.currency_reform = 0;
+Q.business_reform = 0;
+Q.industrial_reform = 0;
+Q.nationalizations = 0;
+Q.nationalizations_cost = 4;
+
+Q.socialist_reform = 0;
+Q.unions_reform = 0;
+
+Q.land_reform = 0;
+Q.tax_reform = 0;
+Q.customs_and_tariff_reform = 0;
+
+Q.political_reform = 0;
+Q.military_reform = 0;
+Q.government_structure_reform = 0;
+Q.civil_service_reform = 0;
+Q.constitution_reform = 0;
+
+
+// Tax rates relative to November 1926 baseline
+Q.rural_tax_upper = 0;
+Q.rural_tax_lower = 0;
+Q.urban_tax_upper = 0;
+Q.urban_tax_lower = 0;
+Q.tariffs = 0; //I think tariffs would've been administered by the maritime customs service and weren't under the control of the government? not that the KMT was the recognized gov of China yet.
+
+
+
+
+
+
+!} //on-arrival closing bracket
+
+set-bg: img/map_2.jpg
+new-page: true
