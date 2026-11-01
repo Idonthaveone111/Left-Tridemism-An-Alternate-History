@@ -233,4 +233,8 @@ subtitle: The only difficulty you get!
 on-arrival: difficulty = 0;
 go-to: 1926_main
 
+@1926_main
+new_page: true
+go-to: main
 
+= 1928
