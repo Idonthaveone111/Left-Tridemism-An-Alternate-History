@@ -280,7 +280,9 @@ new-page: true
 
 @1926_main_mode
 subtitle: The only difficulty you get!
-on-arrival: difficulty = 0;
+on-arrival: {!
+difficulty = 0;
+!}
 go-to: 1926_main
 
 @1926_main
