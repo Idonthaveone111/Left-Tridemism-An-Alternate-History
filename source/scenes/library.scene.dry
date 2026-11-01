@@ -1,1 +1,123 @@
+title: library
+new-page: true
+is-special: true
+go-to: menu
+
+= The Library
+
+Herein contains relevant information our nation's history and current political and economic situation
+
+@menu
+
+- @government: Germany's system of government
+- @china_timeline: Timeline of the Chinese nation since 1911
+- @curr_government: Current Government Details
+- @demographics: Demographics
+- @parties_and_groups: Currrent politically active parties and groups within China
+- @factions: Internal factions
+- @military: Military affairs
+- @backSpecialScene: Exit library.
+
+@government
+go-to: menu
+
+Although the "Republic of China" is notionally ruled by a central government based in Beijing, in practice this government's authority is extremely weak, especially in the South. The government is torn between ever-dividing factions and is subject to extreme croynism and abuse. Over most of the nation, authority rests in the hands of local warlords, generals, and other petty strongmen. There are surely even remote corners of the nation that are not even aware the old Qing dynasty fell at all!
+
+The exception to this lawlessness lies here in the Revolutionary Nationalist Government based out of [? if current_capital == "guangzhou": Guangzhou ?][? if current_capital == "wuhan": Wuhan ?][? if current_capital == "nanjing": Nanjing ?]. It is here that the Chinese Nationalist Party, the Kuomintang, has launched its long awaited campaign to reunify the nation under the principles of Sun Yat-sen, in the name of prosperity for all and against foreign imperialism.
+
+
+@china_timeline
+go-to: menu
+
+tbd
+
+@curr_government
+go-to: menu
+
+tbd
+
+@demographics
+go-to: menu
+
+**Demographic Groups**
+
+**Peasants**: Forming the overwhelming majority of China's population and the bulk of the nation's economic output, they comprise upwards of 80% of the population. They are also a highly diverse class, ranging from wealthy self-sufficient landowners to the most wretchedly poor and landless day laborers. While often conservative and superstitious, they are nonetheless receptive to reform and even revolution.
+
+**Landlords**: A small group, no more than 10% of the population, they nonetheless hold massive economic sway and own upwards of 60-70% of the land, which they rent out at often exhorbitant rates to landless farmers. Although little of the working class enjoys the presence and influence of the landlords, their wealth and status means they can exercise considerable authority over the economy.
+
+**Workers**: Involved in every urban economic activity from factory workers to rickshaw-pullers to servants, the working class form one of the central pillars of the revolutionary mass party. Though not nearly as proportionally large a population as in the industrialized nations, around 2-3%, they are nonetheless a demographic brimming with revolutionary vitality.
+
+**The Middle Class**: Though only a tiny portion of the population in China currently, 1% or less, a nascent middle class is starting to grow in the nation's wealthy cities. As industrialization progresses and the nation prospers, their share of the population will invariably start to grow.
+
+**Students and Intellectuals**: Likewise a small portion of the total population, the educated youth and intellectuals form the ideological backbone of activist movements across the country, especially in the KMT and the CCP. Young, hot-headed, and radical, their support can mean the difference between a healthy and active movement and stagnation.
+
+**The Bourgeois**: A western term referring to the wealthy owners of production, this class controls or influences much of China's industrial base and financial sector. Though fiercely opposed to socialism and most revolutionary activity, they can still be pragmatic when necessary and their support, fickle and cautious though it may be, can be critical to a nation's industry and finances.
+
+**Soldiers**: In these highly turbulent times, an unsually high proportion of the population has taken up arms compared to most other countries. Forming roughly 5% of the population, this figure refers not only to men officially in service with regulated militaries but also local militias and, that perennial rural problem, bandits. Also a diverse group, their usefulness cannot be understated in times like this, and it is crucial they be kept satisfied.
+
+@parties_and_groups
+go-to: menu
+
+**KMT**: - *Zhongguo Guomindang* (Chinese Nationalist Party) - This is us. Founded by the late Dr. Sun Yat-sen in 1919, though it carries a long legacy of Chinese revolutionary activity since the 1890's. It is the party's duty to fulfill Sun Yat-sen's vision of an independent, united, and democratic China. We follow the ideology devised by Sun and his compatriots known as Tridemism, with its three central tenets: Democracy, Socialism, and Nationalism. Though until the pacification and unification of the country and the education of its people in their civil rights and constitutional duties, China should be administered under a temporary single-party government.
+
+[? if united_front_broken: **CCP**: - <i>Zhongguo Gongchangdang*</i> (Chinese Communist Party) - A revolutionary socialist party founded in the aftermath of the May 4th Movement, this party has outgrown its humble beginnings as a glorified book club into a powerful party dedicated to revolutionary communism without thousands of loyal members across the nation. Though ideologically opposed to us in their aim of Marxist socialism and violent class revolution, since 1923 they have joined us in a United Front at Moscow's behest, and our two parties work together towards a common goal of unification and national liberation. ?]
+
+[? if not united_front_broken: **CCP**: - <i>Zhongguo Gongchangdang*</i> (Chinese Communist Party) - A revolutionary socialist party founded in the aftermath of the May 4th Movement, this party has outgrown its humble beginnings as a glorified book club into a powerful party dedicated to revolutionary communism without thousands of loyal members across the nation. Though formerly allied under a United Front, we have since suffered a violent rupture following mass violence and political purges. Ideologically opposed to us in their call for Marxist socialism and violent class conflict, the CCP aims to undermine our government wherever possible and foment mass agitation among the working classes. ?]
+
+Current relations: [+ ccp_relation : relationships +]
+
+[? if wuhan_nanjing_split: **KMT Right**: - <i>Zhongguo Guomindang* (Chinese Nationalist Party Right) - Following increasingly energetic disagreements over policies mostly relating to the Communists, the Rightwing of the KMT led by preeminent general Jiang Jieshi have broken away and formed a rival government. Fiercely opposed to Communist influence and Soviet aid, this faction has begun violent purges of communists within their territory, both real and suspected. Though they lack the political figures that we have, they control a significant portion of the National Revolutionary Army and their anti-communist ideology may be appealing to likeminded figures, both abroad and at home. ?]
+
+[? if wuhan_nanjing_split: [+ nanjing_kmt_relation : relationships +] ?]
+
+**Minor Republican Parties** - A variety of small republican parties, most with only a few hundred or a few thousand members. Also includes those sympathetic in some to the Beiyang government or even to Chen Jiongming's Public Interest Party. Though not greatly relevant on a national scale, they may hold some local weight and thus might be worth dealing with when the need arises.
+
+Current relations: [+ minor_repubican_parties_relation : relationships +]
+
+**Other** - An agglomeration of not just minor oddball parties but also of the great numbers of, especially rural, apolitical individuals who are not committed to or even aware of one ideology or another. With enough outreach and reform, these are likely candidates to be incorporated into the national revolution.
+
+Current relations: [+ other_relation : relationships +]
+
+@factions
+go-to: menu
+
+**Internal Factions of the KMT**
+
+It should be noted that these are broad categories, and the specific alignments of individuals within each faction may be nuanced and not wholly aligned, and they may change with events.
+
+Overall dissent: [+ dissent_percent : dissent +]
+
+**CCP Dual Members**
+
+As part of the terms of the 1923 reorganization, it was decided that members of the CCP should also join the KMT, though it was stressed by Dr. Sun that they do so purely as individuals, rather than as a "bloc with a bloc." Despite this, as the power and influence of the CCP has grown it cannot be denied that CCP members with the KMT have formed a distinct faction with ideological goals in-line with CCP directives.
+
+Strength: [+ ccp_dual_members_strength : strength +]
+
+Dissent: [+ ccp_dual_members_dissent : dissent +]
+
+**Leftists**
+
+KMT leftists include those members who are most supportive of the United Front. Whether out of ideological sympathy to Marxism, personal friendship with Communists, or purely out of political practicality, they continue to advocate for the maintenance if not expansion of the United Front. Though the latter group especially may be prone to breaking ranks should the national situation change.
+
+Strength: [+ left_strength : strength +]
+
+Dissent: [+ left_dissent : dissent +]
+
+
+**Centrists**
+
+The center of the KMT spectrum is comprised of those who are more or less ambivalent to the United Front. Though capable of recognizing the benefits of collaboration with the Soviet Union and the Communist Party, they hold no particular loyalty to the movement and are generally wary of Communist influence on the party's ideals. Though they may not protest against the United Front within reason, should the CCP ever grow too influential or if the national situation turns against them, they will likely be quick to turn against them.
+
+Strength: [+ center_strength : strength +]
+
+Dissent: [+ center_dissent : dissent +]
+
+**Rightists**
+
+The rightwing of the KMT is the most nakedly opposed to the United Front. Deeply opposed to Communism either out of political conservatism or out of fear of diluting the tenets of Sun Yat-sen, the KMT rightists will do everything within their power to root out Communist influence from China. 
+
+@military
+go-to: menu
+
+tbd
 
