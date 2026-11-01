@@ -239,7 +239,7 @@ Q.zhu_de_advisor = 0; // Zhu De military
 
 // leftists
 // song qingling
-Q.wang_jingwei_advisor = 0; // Wang Jingwei special diplo options with jiang and warlords
+Q.wang_jingwei_advisor = 0; // Wang Jingwei special diplo options with jiang and warlords also not available until about april 1927
 Q.eugene_chen_advisor = 0; // Eugene Chen foreign advisor
 Q.tan_yankai_advisor = 0; // Tan Yankai general politics
 Q.deng_yanda_advisor = 0; // Deng Yanda military or peasants
@@ -256,6 +256,9 @@ Q.hh_kung_advisor = 0; // H.H. Kung might not be available until later on
 
 // rightists
 // these guys will mostly? leave after the split and the right becomes fairly inconsequential unless you change that
+Q.jiang_jieshi_advisor = 0; // mr chiang himself military and political splits after the rupture obv
+Q.zhang_renjie_advisor = 0; // Zhang Renjie not really sure tbh maybe some economic stuff 
+Q.li_jishen_advisor = 0; // Li Jishen some economic some military 
 
 
 
