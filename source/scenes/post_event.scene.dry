@@ -1,1 +1,71 @@
+title: Post Event
+new-page: true
+on-arrival: {!
 
+const q = dendryUI.dendryEngine.state.qualities;
+
+Q.dissent = 0.01*total_dissent/total_strength;
+Q.dissent_percent = Q.dissent*100;
+console.log('new dissent: ' + Q.dissent);
+
+if (Q.dissent < 0) {
+    Q.dissent = 0;
+} else if (Q.dissent > 0.95) {
+    Q.dissent = 0.95;
+}
+
+// advance time
+if (Q.week_actions >= 1) {
+	Q.time += 1;
+	Q.week += 1;
+	Q.week_actions = 0;
+	if (Q.week > 4) {
+		Q.month += 1;
+		Q.week = 1;
+		if (Q.month <= 13) {
+        Q.month = 1;
+        Q.year += 1;
+        Q.resources += Q.dues;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!}
