@@ -85,24 +85,26 @@ Q.industrialist_unrest = 0;
 // organizations
 // inter-party relations
 Q.ccp_relation = 65;
-Q.jiang_relation = 30;
+Q.nanjing_kmt_relation = 30;
 Q.yunnan_relation = 60;
 Q.guangdong_relation = 50;
 Q.guangxi_relation = 50;
 Q.sichuan_relation = 55;
 Q.shanxi_yan_relation = 50;
 Q.shaanxi_feng_relation = 55;
-Q.minor_republicans_relation = 35;
+Q.minor_republican_parties = 35;
+Q.other = 35; //apolitical and minor parties
 
 Q.ccp_leader = "Chen Duxiu";
-Q.jiang_leader = "Jiang Jieshi";
+Q.nanjing_kmt_leader = "Jiang Jieshi";
 Q.yunnan_leader = "Yunnan Warlords";
 Q.guangdong_leader = "Li Jishen";
 Q.guangxi_leader = "Li Zongren";
 Q.sichuan_leader = "Sichuan Warlords";
 Q.shanxi_yan_leader = "Yan Xishan";
 Q.shaanxi_feng_leader = "Feng Yuxiang";
-Q.minor_republicans_leader = "Minor Republican Parties";
+Q.minor_republican_parties_leader = "Minor Republican Parties";
+Q.other_leader = "Other";
 
 // foreign powers
 Q.west_relation = 5;
@@ -127,6 +129,7 @@ Q.unions_reform = 0;
 
 Q.government_control_rural = 0;
 Q.land_reform = 0;
+Q.land_collectivization = 0; //save us mao
 Q.tax_reform = 0;
 Q.customs_and_tariff_reform = 0;
 
@@ -148,13 +151,28 @@ Q.peasants = 80; //estimated based on "Mao Zedong and China's 'poor peasants' 19
 Q.landlords = 9; //ibid
 Q.workers = 3; // based on Canteens and the Politics of Working-class Diets in Industrial China, 1920–37
 Q.middle_class = 1;
-Q.industrialists_and_bankers = 1;
-Q.soldiers = 6;
+Q.intellectuals = 2
+Q.bourgeois = 1;
+Q.soldiers = 4;
+
+//Classes and Parties Lists
+Q.classes = ['peasants', 'landlords', 'workers', 'middle_class', 'intellectuals', 'bourgeois', 'soldiers'];
+Q.parties = ['kmt', 'nanjing_kmt', 'ccp', 'yunnan', 'sichuan', 'guangdong', 'guangxi', 'sichuan', 'shanxi', 'shaanxi', 'minor_republican_parties', 'other'];
+// the "warlord" parties hopefully should not be relevant to popularity stats but im not sure if that's possible yet
+// "party" popularities
+// there are no elections but this could be useful for determining power levels etc
+
+
+// economics
+// oh god
+Q.budget = 0;
+Q.inflation = 0; //I think I will make this figure qualitative instead of quanitative (i.e. deflationary, stable, low, medium etc) cuz this data does *not* exist lol
+
 
 
 
 
 !} //on-arrival closing bracket
 
-set-bg: img/map_2.jpg
+set-bg: img/China_Map_Background_2.jpg
 new-page: true
