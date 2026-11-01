@@ -71,6 +71,11 @@ Q.left_split = 0;
 Q.center_abandons = 0;
 Q.right_abandons = 0;
 
+// united front joever
+Q.united_front_broken = 0;
+Q.united_front_integrity = 0;
+Q.united_front_dissent = 0;
+
 // support for the revolution
 Q.rural_revolutionary_ccp = 0;
 Q.rural_revolutionary_kmt = 0;
@@ -113,8 +118,6 @@ Q.soviet_relation = 7;
 
 // state of the government
 // ill figure it out later
-Q.united_front_integrity = 0;
-Q.united_front_dissent = 0;
 Q.current_capital = "guangzhou";
 
 // national reforms
