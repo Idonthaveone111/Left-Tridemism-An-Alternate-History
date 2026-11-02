@@ -83,6 +83,13 @@ Q.rural_revolutionary_kmt = 0;
 Q.urban_revolutionary_ccp = 0;
 Q.urban_revolutionary_kmt = 0;
 
+Q.average_revolution_united = 0; // averaged values of the united front kmt + ccp
+Q.average_revolution_split = 0; // averaged values of just the kmt
+Q.average_rural_revolution_united = 0; // averaged rural values with ccp
+Q.average_rural_revolution_split = 0; // averaged without ccp
+Q.average_urban_revolution_united = 0;
+Q.average_urban_revolution_split = 0;
+
 // revolutionary unrest
 Q.rural_unrest = 0;
 Q.urban_unrest = 0;
