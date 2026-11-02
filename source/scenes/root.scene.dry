@@ -152,13 +152,13 @@ Q.urban_tax_lower = 0;
 Q.tariffs = 0; // I think tariffs would've been administered by the maritime customs service and weren't under the control of the government? not that the KMT was the recognized gov of China yet.
 
 // demographics of social groups
-Q.peasants = 80; // estimated based on "Mao Zedong and China's 'poor peasants' 1927-1957"
-Q.landlords = 9; // ibid
-Q.workers = 3; // based on Canteens and the Politics of Working-class Diets in Industrial China, 1920–37
+Q.peasants = 82; // estimated based on "Mao Zedong and China's 'poor peasants' 1927-1957"
+Q.landlords = 5; // ibid
+Q.workers = 6; // based on Canteens and the Politics of Working-class Diets in Industrial China, 1920–37
 Q.middle_class = 1;
 Q.intellectuals = 2
 Q.bourgeois = 1;
-Q.soldiers = 4;
+Q.soldiers = 3;
 
 //Classes and Parties Lists
 Q.classes = ['peasants', 'landlords', 'workers', 'middle_class', 'intellectuals', 'bourgeois', 'soldiers']; // intellectuals includes students
