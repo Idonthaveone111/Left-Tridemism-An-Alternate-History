@@ -1,1 +1,13 @@
+title: Status
+new-page: true
+is-special: true
 
+= Status
+
+Week [+ week +], [+ month : month +] [+ year +]
+
+// Revolutionary Fervor: [? if not united_front_broken : 
+
+Party: [+ resources +]
+
+Internal Dissent: [+ dissent_percent : dissent +]
