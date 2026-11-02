@@ -1,0 +1,11 @@
+
+(0..10) Drained
+(10..20) Exhausted
+(20..30) Lethargic
+(30..40) Awakening
+(40..50) Aware
+(50..60) Energetic
+(60..70) Mobilizing
+(70..80) Enthusiastic
+(80..90) Passionate
+(90..) Zealous
