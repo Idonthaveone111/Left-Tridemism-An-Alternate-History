@@ -22,6 +22,8 @@ National Capital: [? if current_capital == "guangzhou": Guangzhou ?][? if curren
 
 = Inter-party Relations
 
+CCP: [+ ccp_relation : relationships +]
+
 @foreign
 
 = Foreign Affairs
