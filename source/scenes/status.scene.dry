@@ -13,3 +13,16 @@ Rural Revolutionary Fervor: [+ average_rural_revolution_united : fervor +]
 Party: [+ resources +]
 
 Internal Dissent: [+ dissent_percent : dissent +]
+
+
+@politics
+
+= Inter-party Relations
+
+@paramilitaries
+
+@polls
+
+@foreign
+
+@interior
