@@ -30,7 +30,21 @@ Minor Republican Parties: [+ minor_republican_parties_relation : relationships +
 
 Other: [+ other_relation : relationships +]
 
-@foreign
+= Independent Province Relations
+
+[? if guangdong_independent: Guangdong: [+ guangdong_relation : relationships +]
+
+Guangxi: [+ guangxi_relation : relationships +]
+
+Yunnan: [+ yunnan_relation : relationships +]
+
+Shanxi: [+ shanxi_yan_relation : relationships +]
+
+Shaanxi: [+ shaanxi_feng_relation : relationships +]
+
+Sichuan: [+ sichuan_relation : relationships +]
+
+@foreign 
 
 = Foreign Affairs
 
