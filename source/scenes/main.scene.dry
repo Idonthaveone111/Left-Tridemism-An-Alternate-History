@@ -33,7 +33,7 @@ is-deck: true
 
 @military
 title: Military Affairs
-card-image: img/placeholder.jpg
+card-image: img/military_affairs.jpg
 is-deck: true
 
 @govt
