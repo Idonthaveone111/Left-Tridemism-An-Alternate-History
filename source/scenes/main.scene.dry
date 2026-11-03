@@ -18,11 +18,12 @@ if (Q.advisor_sov_action_timer <= 0) {
 !}
 max-cards: 4
 
-// here the main deck will be displayed
+#here the main deck will be displayed
 
 - @party
 - @military
 - @govt
+- @shuffle_leadership_pinned
 
 @party
 title: Party Affairs
