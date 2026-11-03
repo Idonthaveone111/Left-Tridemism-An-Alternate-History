@@ -5,4 +5,8 @@ on-arrival: {!
 if (Q.week_actions > 0) {
     Q.week_actions -= 1;
 }
+// return card to hand
+var card = this.state.lastPlayedCard;
+card.image = card.cardImage;
+this.state.currentHands['main'].push(card);
 !}
