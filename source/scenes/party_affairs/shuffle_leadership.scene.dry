@@ -31,6 +31,7 @@ go-to: advisor_menu
 
 @advisor_menu
 title: Add other advisors.
+tags: ccp_dual_members_advisor, left_advisor, centwe_advisor, right_advisor
 frequency: 1
 
 @remove_none
