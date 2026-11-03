@@ -23,7 +23,6 @@ max-cards: 4
 - @party
 - @military
 - @govt
-- @shuffle_leadership_pinned
 
 @party
 title: Party Affairs
