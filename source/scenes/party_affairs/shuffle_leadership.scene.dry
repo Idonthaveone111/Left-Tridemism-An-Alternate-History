@@ -18,7 +18,7 @@ Removing advisors will increase dissent from their faction of the party, while s
 
 @rm_main
 title: Remove advisors
-tags: ccp_dual_members_advisor, left_advisor, centwe_advisor, right_advisor
+tags: ccp_dual_members_advisor, left_advisor, center_advisor, right_advisor
 frequency: 1
 
 - @add_advisors: Add advisors
@@ -31,7 +31,7 @@ go-to: advisor_menu
 
 @advisor_menu
 title: Add other advisors.
-tags: ccp_dual_members_advisor, left_advisor, centwe_advisor, right_advisor
+tags: ccp_dual_members_advisor, left_advisor, center_advisor, right_advisor
 frequency: 1
 
 @remove_none
