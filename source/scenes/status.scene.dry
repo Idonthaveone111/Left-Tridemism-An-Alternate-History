@@ -18,6 +18,7 @@ Internal Dissent: [+ dissent_percent : dissent +]
 
 @politics
 
+= Party Status
 
 National Capital: [? if current_capital == "guangzhou": Guangzhou ?][? if current_capital == "wuhan": Wuhan ?][? if current_capital == "nanjing": Nanjing ?]
 
