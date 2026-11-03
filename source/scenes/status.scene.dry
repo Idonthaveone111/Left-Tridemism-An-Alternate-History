@@ -25,7 +25,7 @@ National Capital: [? if current_capital == "guangzhou": Guangzhou ?][? if curren
 
 CCP: [+ ccp_relation : relationships +]
 
-[? if wuhan_nanjing_split: Right KMT: [+ nanjing_kmt_relation : relationships +]
+[? if wuhan_nanjing_split: Right KMT: [+ nanjing_kmt_relation : relationships +] ?]
 
 Minor Republican Parties: [+ minor_republican_parties_relation : relationships +]
 
@@ -33,7 +33,7 @@ Other: [+ other_relation : relationships +]
 
 = Independent Province Relations
 
-[? if guangdong_independent: Guangdong: [+ guangdong_relation : relationships +]
+[? if guangdong_independent: Guangdong: [+ guangdong_relation : relationships +] ?]
 
 Guangxi: [+ guangxi_relation : relationships +]
 
