@@ -237,13 +237,14 @@ Q.military_industry = 0; // could be useful
 Q.rural_vitality = 0; // represents the general wellbeing of agriculture and rural villages, might effect growth and budget etc
 
 // timers
-Q.timers = ['advisor_action'];
+Q.timers = ['advisor_action', 'shuffle_leadership'];
 
 // advisor stuff
 Q.n_advisors = 3;
 Q.n_advisors_sov = 1;
 Q.advisor_action_timer = 0;
 Q.advisor_sov_action_timer = 0;
+Q.shuffle_leadership_timer = 0;
 
 // starting advisors
 Q.sun_fo_advisor = 1; // Sun Fo centrist political and constitutional
