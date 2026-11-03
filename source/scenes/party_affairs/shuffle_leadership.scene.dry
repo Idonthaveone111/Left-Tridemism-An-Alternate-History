@@ -17,13 +17,14 @@ Removing advisors will increase dissent from their faction of the party, while s
 - @easy_discard
 
 @rm_main
-title: Remove advisors.
+title: Remove advisors
+tags: ccp_advisor, leftist_advisor, centrist_advisor, rightist_advisor
 frequency: 1
 
 @add_advisors
 title: Add advisors
 choose-if: n_advisors < 3
-unavailable-subtitle: Maximum of 3 advisors.
+unavailable-subtitle: Maximum of 3 advisors
 go-to: advisor_menu
 
 @advisor_menu
