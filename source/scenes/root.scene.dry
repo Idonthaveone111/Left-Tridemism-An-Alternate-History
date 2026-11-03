@@ -267,6 +267,7 @@ Q.tan_yankai_advisor = 0; // Tan Yankai general politics
 Q.deng_yanda_advisor = 0; // Deng Yanda military or peasants
 Q.gu_mengyu_advisor = 0; // Gu Mengyu propaganda or education
 Q.chen_gongbo_advisor = 0; // Chen Gongbo labour
+Q.tang_shengzhi = 0; // Tang Shengzhi military
 
 // centrists
 // sun fo
