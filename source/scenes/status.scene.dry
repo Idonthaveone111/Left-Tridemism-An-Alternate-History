@@ -49,6 +49,14 @@ Sichuan: [+ sichuan_relation : relationships +]
 
 = Faction Leadership
 
+[? if guangdong_independent and guangdong_leader == "Li Jishen" : Guangdong: Li Jishen ?]
+
+Guangxi: Huang Shaohong
+
+Yunnan: [? if not yunnan_leader_victory: Yunnan Warlords ?][? if yunnan_leader_victory and yunnan_leader == "Long Yun" : Long Yun ?][? if yunnan_leader_victory and yunnan_leader == "Lu Han" : Lu Han ?]
+
+
+
 
 
 @foreign 
