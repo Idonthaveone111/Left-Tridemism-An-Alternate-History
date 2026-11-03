@@ -1,1 +1,55 @@
+title: Shuffle Leadership
+new-page: true
+is-card: true
+tags: party_affairs
+view-if: shuffle_leadership_timer = 0
+on-arrival: week_activities += 1; shuffle_leadership_timer = 8;
+card-image: img/placeholder.jpg
+go-to: rm_main
 
+Changing the leadership of the party is painful, but perhaps it is necessary to adapt to changing circumstances.
+
+Removing advisors will increase dissent from their faction of the party, while selecting advisors will increase a faction's strength and reduce their dissent.
+
+- @rm_main: Remove advisors
+- @add_advisors: Add advisors
+- @remove_none: Don't change advisors.
+- @easy_discard
+
+@rm_main
+title: Remove advisors.
+frequency: 1
+
+@add_advisors
+title: Add advisors
+choose-if: n_advisors < 3
+unavailable-subtitle: Maximum of 3 advisors.
+go-to: advisor_menu
+
+@advisor_menu
+title: Add other advisors.
+frequency: 1
+
+@remove_none
+title: Stop changing advisors.
+go-to: root
+tags: remove_advisor
+
+- @CCP: Add Communists
+- @leftists: Add Leftists
+- @centrists: Add Centrists
+- @rightists: Add Rightists
+- @rm_main: Remove advisors instead.
+- @remove_none: Stop changing advisors.
+
+@CCP
+view-if: n_advisors < 3
+
+@leftists
+view-if: n_advisors < 3
+
+@centrists
+view-if: n_advisors < 3
+
+@rightists
+view-if: n_advisors < 3
