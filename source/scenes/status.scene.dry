@@ -51,13 +51,13 @@ Sichuan: [+ sichuan_relation : relationships +]
 
 = Foreign Affairs
 
-Soviet Relations: [+ soviet_relation : relationships +]
+Soviet Relations: [+ soviet_relation : fopo_relation +]
 
 Soviet Aid: [+ soviet_aid +]
 
-Western Relations: [+ west_relation : relationships +]
+Western Relations: [+ west_relation : fopo_relation +]
 
-Japanese Relations: [+ japan_relation : relationships +]  
+Japanese Relations: [+ japan_relation : fopo_relation +]  
 
 = Treaty Ports and Concessions
 
