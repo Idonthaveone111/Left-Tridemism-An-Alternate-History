@@ -16,3 +16,26 @@ if (Q.advisor_sov_action_timer <= 0) {
     Q.pinnedCardsDescription = 'Soviet Advisors - next action available in ' + Q.advisor_sov_action_timer + ' weeks';
 }
 !}
+max-cards: 4
+
+// here the main deck will be displayed
+
+- @party
+- @military
+- @govt
+- @shuffle_leadership_pinned
+
+@party
+title: Party Affairs
+card-image: img/placeholder.jpg
+is-deck: true
+
+@military
+title: Military Affairs
+card-image: img/placeholder.jpg
+is-deck: true
+
+@govt
+title: Government Affairs
+card-image: img/placeholder.jpg
+is-deck: true
