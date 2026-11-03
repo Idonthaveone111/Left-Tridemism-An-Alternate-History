@@ -22,7 +22,7 @@ if (Q.week_actions >= 1) {
 	if (Q.week > 4) {
 		Q.month += 1;
 		Q.week = 1;
-		if (Q.month <= 13) {
+		if (Q.month > 12) {
         Q.month = 1;
         Q.year += 1;
         Q.resources += Q.dues;
