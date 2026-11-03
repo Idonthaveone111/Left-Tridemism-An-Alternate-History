@@ -51,6 +51,13 @@ Sichuan: [+ sichuan_relation : relationships +]
 = Foreign Affairs
 
 Soviet Relations: [+ soviet_relation : relationships +]
+Soviet Aid: [+ soviet_aid +]
+
+Western Relations: [+ west_relation : relationships +]
+
+Japanese Relations: [+ japan_relation : relationships +]  
+
+= Treaty Ports and Concessions
 
 @polls
 
@@ -59,6 +66,8 @@ Soviet Relations: [+ soviet_relation : relationships +]
 @defense
 
 = Military Affairs
+
+Commander in Chief: 
 
 @interior
 
