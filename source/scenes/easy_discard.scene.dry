@@ -5,3 +5,4 @@ on-arrival: {!
 if (Q.week_actions > 0) {
     Q.week_actions -= 1;
 }
+!}
