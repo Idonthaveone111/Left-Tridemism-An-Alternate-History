@@ -21,6 +21,8 @@ title: Remove advisors
 tags: ccp_dual_members_advisor, left_advisor, centwe_advisor, right_advisor
 frequency: 1
 
+- @add_advisors: Add advisors
+
 @add_advisors
 title: Add advisors
 choose-if: n_advisors < 3
