@@ -11,6 +11,7 @@ Urban Revolutionary Fervor: [+ average_urban_revolution_united : fervor +]
 Rural Revolutionary Fervor: [+ average_rural_revolution_united : fervor +]
 
 Party: [+ resources +]
+
 Monthly Party Budget: [+ dues +]
 
 Internal Dissent: [+ dissent_percent : dissent +]
@@ -51,6 +52,7 @@ Sichuan: [+ sichuan_relation : relationships +]
 = Foreign Affairs
 
 Soviet Relations: [+ soviet_relation : relationships +]
+
 Soviet Aid: [+ soviet_aid +]
 
 Western Relations: [+ west_relation : relationships +]
