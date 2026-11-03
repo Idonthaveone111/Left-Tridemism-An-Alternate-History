@@ -119,10 +119,19 @@ Q.shaanxi_feng_leader = "Feng Yuxiang";
 Q.minor_republican_parties_leader = "Minor Republican Parties";
 Q.other_leader = "Other";
 
+// warlord stuff
+Q.guangdong_independent = 0; //Li Jishen declares independence
+Q.yunnan_leader_victory = 0; //For when someone unified Yunnan aka long yun or lu han or some tang jiyao guy
+
 // foreign powers
 Q.west_relation = 5;
 Q.japan_relation = 4;
 Q.soviet_relation = 7;
+
+Q.soviet_aid = 0; // soviet guns equipment and money
+
+// unequal treaties
+
 
 // state of the government
 // ill figure it out later
