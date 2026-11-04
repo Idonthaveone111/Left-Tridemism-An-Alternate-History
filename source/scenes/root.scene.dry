@@ -267,12 +267,12 @@ Q.deng_yanda_advisor = 0; // Deng Yanda military or peasants
 Q.gu_mengyu_advisor = 0; // Gu Mengyu propaganda or education
 Q.chen_gongbo_advisor = 0; // Chen Gongbo labour
 Q.tang_shengzhi = 0; // Tang Shengzhi military
+Q.he_xiangning_advisor = 0; // He Xiangning feminism
 
 // centrists
 // sun fo
 // tv soong
 Q.xu_qian_advisor = 0; // Xu Qian justice
-Q.he_xiangning_advisor = 0; // He Xiangning feminism
 Q.tan_yankai_advisor = 0; // Tan Yankai general politics
 Q.zhu_peide_advisor = 0; // Zhu Peide military
 Q.hh_kung_advisor = 0; // HH Kung might not be available until later on
