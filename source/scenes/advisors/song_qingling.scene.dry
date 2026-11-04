@@ -1,0 +1,12 @@
+title: Song Qingling
+is-pinned-card: true
+tags: advisor, left
+card-image: img/portraits/SongQingling.jpg
+view-if: song_qingling_advisor = 1
+new-page: true 
+
+= Song Qingling
+
+The middle daughter of the highly prominent Soong family and the former wife of Dr. Sun Yat-sen. She has become a powerful voice for the Chinese masses and she has considerable sympathies for the Communist Party. 
+
+- @root: Return to main

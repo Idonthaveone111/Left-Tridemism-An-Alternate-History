@@ -1,0 +1,12 @@
+title: Sun Fo
+is-pinned-card: true
+tags: advisor, center
+card-image: img/portraits/SunFo.jpg
+view-if: sun_fo_advisor = 1
+new-page: true 
+
+= Sun Fo
+
+The eldest son of the late Dr. Sun Yat-sen, Sun Fo is strong-willed and a staunch advocate of constitutionalism and legal governance. He is willing to tolerate the Communists, however it must not be forgotten that his ultimate goals will always lie in the ideals of his father.
+
+- @root: Return to main

@@ -1,0 +1,12 @@
+title: T.V. Soong
+is-pinned-card: true
+tags: advisor, center
+card-image: img/portraits/TVSoong.jpg
+view-if: tv_soong_advisor = 1
+new-page: true 
+
+= T.V. Soong
+
+Scion of the prominent Soong family and eldest son of patriarch Charlie Soong, T.V. Soong attended university in the United States before becoming first a businessman and then ably serving Sun Yat-sen in China's financial circles. He carries close ties to China's top financial and industrial institutions, but has become increasingly wary of the Communist's growing power.
+
+- @root: Return to main

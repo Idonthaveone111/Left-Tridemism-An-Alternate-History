@@ -1,0 +1,12 @@
+title: Gu Mengyu
+is-pinned-card: true
+tags: advisor, left
+card-image: img/portraits/GuMengyu.jpg
+view-if: gu_mengyu_advisor = 1
+new-page: true 
+
+= Gu Mengyu
+
+Starting as an activist during the turmoil of the 1910's, Gu Mengyu has ample experience as both an educator and an organizer for the mass party.
+
+- @root: Return to main

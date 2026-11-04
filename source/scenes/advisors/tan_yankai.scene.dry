@@ -1,0 +1,12 @@
+title: Tan Yankai
+is-pinned-card: true
+tags: advisor, center
+card-image: img/portraits/TanYankai.jpg
+view-if: tan_yankai_advisor = 1
+new-page: true 
+
+= Tan Yankai
+
+Formerly the acting chairman of the party, Tan Yankai has been a prominent party statesman since 1923.
+
+- @root: Return to main

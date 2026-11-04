@@ -1,0 +1,12 @@
+title: Mao Zedong
+is-pinned-card: true
+tags: advisor, communist_dual_members
+card-image: img/portraits/MaoZedong.jpg
+view-if: mao_zedong_advisor = 1
+new-page: true 
+
+= Mao Zedong
+
+A revolutionary radical from a young age, he has only grown more outspoken with time and accordingly has grown in prominence in both the CCP and the KMT. He has become a skilled organizer of rural peasants and and advocate for land reform.
+
+- @root: Return to main

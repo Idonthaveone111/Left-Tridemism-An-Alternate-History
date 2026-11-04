@@ -1,0 +1,12 @@
+title: Tang Shengzhi
+is-pinned-card: true
+tags: advisor, left
+card-image: img/portraits/TangShengzhi.jpg
+view-if: tang_shengzhi_advisor = 1
+new-page: true 
+
+= Tang Shengzhi
+
+A Hunanese general who joined the KMT in the early days of the Northern Expedition, in that short time he has since arisen to meteoric heights within the ranks of the National Revolutionary Army.
+
+- @root: Return to main

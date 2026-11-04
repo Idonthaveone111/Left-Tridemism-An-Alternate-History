@@ -1,0 +1,12 @@
+title: Tan Pingshan
+is-pinned-card: true
+tags: advisor, communist_dual_members
+card-image: img/portraits/TanPingshan.jpg
+view-if: tan_pingshan_advisor = 1
+new-page: true 
+
+= Tan Pingshan
+
+One of the first members of the Chinese Communist Party, he has been an involved activist since the fall of the Qing, and now turns his attentions to government ministerial positions and the advancement of the cause of the workers and peasants.
+
+- @root: Return to main

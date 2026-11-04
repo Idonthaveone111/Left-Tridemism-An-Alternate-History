@@ -1,0 +1,12 @@
+title: Chen Duxiu
+is-pinned-card: true
+tags: advisor, communist_dual_members
+card-image: img/portraits/ChenDuxiu.jpg
+view-if: chen_duxiu_advisor = 1
+new-page: true 
+
+= Chen Duxiu
+
+One of the principle founders of the Chinese Communist Party in the days following the May Fourth protests. He now serves as an intermediary between the Communist Party and the KMT, and seeks to patch relations between us and forge an ever-stronger United Front.
+
+- @root: Return to main
