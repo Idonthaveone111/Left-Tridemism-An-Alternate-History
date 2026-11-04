@@ -237,7 +237,7 @@ Q.military_industry = 0; // could be useful
 Q.rural_vitality = 0; // represents the general wellbeing of agriculture and rural villages, might effect growth and budget etc
 
 // timers
-Q.timers = ['advisor_action', 'shuffle_leadership'];
+Q.timers = ['advisor_action', 'advisor_sov_action', 'shuffle_leadership'];
 
 // advisor stuff
 Q.n_advisors = 3;
