@@ -263,7 +263,6 @@ Q.zhu_de_advisor = 0; // Zhu De military
 // song qingling
 Q.wang_jingwei_advisor = 0; // Wang Jingwei special diplo options with jiang and warlords also not available until about april 1927
 Q.eugene_chen_advisor = 0; // Eugene Chen foreign advisor
-Q.tan_yankai_advisor = 0; // Tan Yankai general politics
 Q.deng_yanda_advisor = 0; // Deng Yanda military or peasants
 Q.gu_mengyu_advisor = 0; // Gu Mengyu propaganda or education
 Q.chen_gongbo_advisor = 0; // Chen Gongbo labour
@@ -274,6 +273,7 @@ Q.tang_shengzhi = 0; // Tang Shengzhi military
 // tv soong
 Q.xu_qian_advisor = 0; // Xu Qian justice
 Q.he_xiangning_advisor = 0; // He Xiangning feminism
+Q.tan_yankai_advisor = 0; // Tan Yankai general politics
 Q.zhu_peide_advisor = 0; // Zhu Peide military
 Q.hh_kung_advisor = 0; // HH Kung might not be available until later on
 
