@@ -33,15 +33,34 @@ tags: remove_advisor
 @remove_tan_pingshan
 title: Remove Tan Pingshan
 choose-if: tan_pingshan_advisor = 1
-on_arrival: tan_pingshan_advisor = 0; ccp_dual_members_dissent += 5; n_advisors -= 1
+on-arrival: tan_pingshan_advisor = 0; ccp_dual_members_dissent += 5; n_advisors -= 1
 tags: remove_advisor
 go-to: rm_main
 
 @remove_su_zhaozheng
 title: Remove Su Zhaozheng
 choose-if: su_zhaozheng_advisor = 1
-on_arrival: su_zhaozheng_advisor = 0; ccp_dual_members_dissent += 5; n_advisors -= 1
+on-arrival: su_zhaozheng_advisor = 0; ccp_dual_members_dissent += 5; n_advisors -= 1
 tags: remove_advisor
+go-to: rm_main
+
+@remove_chen_duxiu
+title: Remove Chen Duxiu
+choose-if: chen_duxiu_advisor = 1
+on-arrival: chen_duxiu_advisor = 0; ccp_dual_members_dissent +=5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_mao_zedong
+title: Remove Mao Zedong
+choose-if: mao_zedong_advisor = 1
+on-arrival: mao_zedong_advisor = 0; ccp_dual_members_dissent += 5; n_advisors -= 1
+go-to: rm_main
+
+@remove_zhu_de
+title: Remove Zhe De
+choose-if: zhu_de_advisor = 1
+on-arrival: zhu_de_advisor = 0; ccp_dual_members_ddsent =+ 5; n_advisors -= 1
 go-to: rm_main
 
 @add_advisors
