@@ -1,9 +1,9 @@
 title: This Event is Mere Placeholder
 subtitle: Just ignore it for now
 view-if: ( year = 1926 and month = 11 and week = 1 )
+tags: event
 on-arrival: {!
 // dont worry about it
 !}
-tags: event
 priority: 1
 max-visits: 5
