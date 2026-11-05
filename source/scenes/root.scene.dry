@@ -250,7 +250,7 @@ Q.shuffle_leadership_timer = 0;
 Q.sun_fo_advisor = 1; // Sun Fo centrist political and constitutional
 Q.soong_qingling_advisor = 1; // Soong Qingling leftist political organisation
 Q.tv_soong_advisor = 1; // T.V. Soong centrist but leans to the right finance
-Q.borodin_advisor_sov = 1; // Mikhail Borodin soviet advisor 
+Q.mikhail_borodin_advisor_sov = 1; // Mikhail Borodin soviet advisor 
 
 // communists in the united front
 Q.tan_pingshan_advisor = 0; // Tan Pingshan agriculture?
@@ -289,8 +289,8 @@ Q.dai_jitao_advisor = 0; // propaganda
 
 // soviet advisors
 // borodin
-Q.blyukher_advisor_sov = 0; // Vasily Blyukher aka Galen military advisor
-Q.roy_advisor_sov = 0; // MN Roy politico
+Q.vasily_blyukher_advisor_sov = 0; // Vasily Blyukher aka Galen military advisor
+Q.mn_roy_advisor_sov = 0; // MN Roy politico
 
 
 
