@@ -1,1 +1,8 @@
-
+title: This Event is Mere Placeholder
+subtitle: Just ignore it for now
+on-arrival: {!
+// dont worry about it
+!}
+tags: event
+priority: 1
+max-visits: 5
