@@ -71,10 +71,139 @@ go-to: rm_main
 @remove_song_qingling
 title: Remove Song Qingling
 choose-if: song_qingling_advisor = 1
-on-arrival: song_zingling_advisor = 0; left_dissent =+ 5; n_advisors -= 1
+on-arrival: song_zingling_advisor = 0; left_dissent += 5; n_advisors -= 1
 tags: remove_advisor
 go-to: rm_main
 
+@remove_wang_jingwei
+title: Remove Wang Jingwei
+choose-if: wang_jingwei_advisor = 1
+on-arrival: wang_jingwei_advisor = 0; left_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_eugene_chen
+title: Remove Eugene Chen
+choose-if: eugene_chen_advisor = 1
+on-arrival: eugene_chen_advisor = 0; left_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_deng_yanda
+title: Remove Deng Yanda
+choose-if: deng_yanda_advisor = 1
+on-arrival: deng_yanda_advisor = 0; left_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_gu_mengyu
+title: Remove Gu Mengyu
+choose-if: gu_mengyu_advisor = 1
+on-arrival: gu_mengyu_advisor = 0; left_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_chen_gongbo
+title: Remove Chen Gongbo
+choose-if: chen_gongbo_advisor = 1
+on-arrival: chen_gongbo_advisor = 0; left_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_tang_shengzhi
+title: Remove Tang Shengzhi
+choose-if: tang_shengzhi_advisor = 1
+on-arrival: tang_shengzhi_advisor = 0; left_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_he_xiangning
+title: Remove He Xiangning
+choose-if: he_xiangning_advisor = 1
+on-arrival: he_xiangning_advisor = 0; left_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+# centrists
+
+@remove_sun_fo
+title: Remove Sun Fo
+choose-if: sun_fo_advisor = 1
+on-arrival: sun_fo_advisor = 0; center_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_tv_soong
+title: Remove T.V. Soong
+choose-if: tv_soong_advisor = 1
+on-arrival: tv_soong_advisor = 0; center_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_xu_qian
+title: Remove Xu Qian
+choose-if: xu_qian_advisor = 1
+on-arrival: xu_qian_advisor = 0; center_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_tan_yankai
+title: Remove Tan Yankai
+choose-if: tan_yankai_advisor = 1
+on-arrival: tan_yankai_advisor = 0; center_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_zhu_peide
+title: Remove Zhu Peide
+choose-if: zhu_peide_advisor = 1
+on-arrival: zhu_peide_advisor = 0; center_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_hh_kung
+title: Remove H.H. Kung
+choose-if: hh_kung_advisor = 1
+on-arrival: hh_kung_advisor = 0; center_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+# rightists
+
+@remove_jiang_jieshi
+title: Remove Jiang Jieshi
+choose-if: jiang_jieshi_advisor = 1
+on-arrival: jiang_jieshi_advisor = 0; right_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_zhang_renjie
+title: Remove Zhang Renjie
+choose-if: zhang_renjie_advisor = 1
+on-arrival: zhang_renjie_advisor = 0; right_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_li_jishen
+title: Remove Li Jishen
+choose-if: li_jishen_advisor = 1
+on-arrival: li_jishen_advisor = 0; right_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_hu_hanmin
+title: Remove Hu Hanmin
+choose-if: hu_hanmin_advisor = 1
+on-arrival: hu_hanmin_advisor = 0; right_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_dai_jitao
+title: Remove Dai Jitao
+choose-if: dai_jitao_advisor = 1
+on-arrival: dai_jitao_advisor = 0; right_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
 
 @add_advisors
 title: Add advisors
