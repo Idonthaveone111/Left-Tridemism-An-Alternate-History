@@ -24,6 +24,11 @@ frequency: 1
 - #remove_advisor
 - @add_advisors: Add advisors
 
+@remove_none
+title: Stop changing advisors.
+go-to: root
+tags: remove_advisor
+
 @add_advisors
 title: Add advisors
 choose-if: n_advisors < 3
@@ -34,11 +39,6 @@ go-to: advisor_menu
 title: Add other advisors.
 tags: ccp_dual_members_advisor, left_advisor, center_advisor, right_advisor
 frequency: 1
-
-@remove_none
-title: Stop changing advisors.
-go-to: root
-tags: remove_advisor
 
 - @CCP: Add Communists
 - @leftists: Add Leftists
