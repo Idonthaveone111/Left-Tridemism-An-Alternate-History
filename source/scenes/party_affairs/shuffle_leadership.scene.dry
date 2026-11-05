@@ -29,6 +29,7 @@ title: Stop changing advisors.
 go-to: root
 tags: remove_advisor
 
+# Communists
 
 @remove_tan_pingshan
 title: Remove Tan Pingshan
@@ -60,8 +61,17 @@ go-to: rm_main
 @remove_zhu_de
 title: Remove Zhe De
 choose-if: zhu_de_advisor = 1
-on-arrival: zhu_de_advisor = 0; ccp_dual_members_ddsent =+ 5; n_advisors -= 1
+on-arrival: zhu_de_advisor = 0; ccp_dual_members_dissent += 5; n_advisors -= 1
 go-to: rm_main
+
+# Leftists
+
+@remove_song_qingling
+title: Remove Song Qingling
+choose-if: song_qingling_advisor = 1
+on-arrival: song_zingling_advisor = 0; ccp_dual_members_dissent =+ 5; n_advisors -= 1
+go-to: rm_main
+
 
 @add_advisors
 title: Add advisors
