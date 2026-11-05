@@ -285,6 +285,7 @@ Q.jiang_jieshi_advisor = 0; // mr chiang himself military and political splits a
 Q.zhang_renjie_advisor = 0; // Zhang Renjie not really sure tbh maybe some economic stuff 
 Q.li_jishen_advisor = 0; // Li Jishen some economic some military
 Q.hu_hanmin_advisor = 0; // politics mostly for completeness
+Q.dai_jitao_advisor = 0; // propaganda
 
 // soviet advisors
 // borodin
