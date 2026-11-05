@@ -248,7 +248,7 @@ Q.shuffle_leadership_timer = 0;
 
 // starting advisors
 Q.sun_fo_advisor = 1; // Sun Fo centrist political and constitutional
-Q.song_qingling_advisor = 1; // Song Qingling leftist political organisation
+Q.soong_qingling_advisor = 1; // Soong Qingling leftist political organisation
 Q.tv_soong_advisor = 1; // T.V. Soong centrist but leans to the right finance
 Q.borodin_advisor_sov = 1; // Mikhail Borodin soviet advisor 
 
