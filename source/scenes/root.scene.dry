@@ -260,7 +260,7 @@ Q.mao_zedong_advisor = 0; // Mao Zedong peasant organisation
 Q.zhu_de_advisor = 0; // Zhu De military
 
 // leftists
-// song qingling
+// soong qingling
 Q.wang_jingwei_advisor = 0; // Wang Jingwei special diplo options with jiang and warlords also not available until about april 1927
 Q.eugene_chen_advisor = 0; // Eugene Chen foreign advisor
 Q.deng_yanda_advisor = 0; // Deng Yanda military or peasants
