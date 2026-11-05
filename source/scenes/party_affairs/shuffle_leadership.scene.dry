@@ -71,7 +71,7 @@ go-to: rm_main
 @remove_song_qingling
 title: Remove Song Qingling
 view-if: song_qingling_advisor = 1
-on-arrival: song_zingling_advisor = 0; left_dissent += 5; n_advisors -= 1
+on-arrival: song_qingling_advisor = 0; left_dissent += 5; n_advisors -= 1
 tags: remove_advisor
 go-to: rm_main
 
