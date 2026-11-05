@@ -248,7 +248,7 @@ Q.shuffle_leadership_timer = 0;
 
 // starting advisors
 Q.sun_fo_advisor = 1; // Sun Fo centrist political and constitutional
-Q.soong_qingling_advisor = 1; // Soong Qingling leftist political organisation
+Q.jiang_jieshi_advisor = 1; // mr chiang himself military and political splits after the rupture obv
 Q.tv_soong_advisor = 1; // T.V. Soong centrist but leans to the right finance
 Q.mikhail_borodin_advisor_sov = 1; // Mikhail Borodin soviet advisor 
 
@@ -260,7 +260,7 @@ Q.mao_zedong_advisor = 0; // Mao Zedong peasant organisation
 Q.zhu_de_advisor = 0; // Zhu De military
 
 // leftists
-// soong qingling
+Q.soong_qingling_advisor = 0; // Soong Qingling leftist political organisation
 Q.wang_jingwei_advisor = 0; // Wang Jingwei special diplo options with jiang and warlords also not available until about april 1927
 Q.eugene_chen_advisor = 0; // Eugene Chen foreign advisor
 Q.deng_yanda_advisor = 0; // Deng Yanda military or peasants
@@ -281,7 +281,7 @@ Q.hh_kung_advisor = 0; // HH Kung might not be available until later on
 
 // rightists
 // these guys will mostly? leave after the split and the right becomes fairly inconsequential unless you change that
-Q.jiang_jieshi_advisor = 0; // mr chiang himself military and political splits after the rupture obv
+// jiang jieshi
 Q.zhang_renjie_advisor = 0; // Zhang Renjie not really sure tbh maybe some economic stuff 
 Q.li_jishen_advisor = 0; // Li Jishen some economic some military
 Q.hu_hanmin_advisor = 0; // politics mostly for completeness
