@@ -29,6 +29,21 @@ title: Stop changing advisors.
 go-to: root
 tags: remove_advisor
 
+
+@remove_tan_pingshan
+title: Remove Tan Pingshan
+choose-if: tan_pingshan_advisor = 1
+on_arrival: tan_pingshan_advisor = 0; ccp_dual_members_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_su_zhaozheng
+title: Remove Su Zhaozheng
+choose-if: su_zhaozheng_advisor = 1
+on_arrival: su_zhaozheng_advisor = 0; ccp_dual_members_dissent += 5; n_advisors -= 1
+tags: remove_advisor
+go-to: rm_main
+
 @add_advisors
 title: Add advisors
 choose-if: n_advisors < 3
