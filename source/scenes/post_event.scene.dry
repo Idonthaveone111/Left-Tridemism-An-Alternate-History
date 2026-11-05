@@ -96,6 +96,6 @@ if (typeof window !== "undefined" && window.generateBar) {
 }
 
 @events_choice
-- #event
+
 
 # This scene is solely for updating numbers after events, and routing to special events.
