@@ -21,6 +21,7 @@ title: Remove advisors
 tags: ccp_dual_members_advisor, left_advisor, center_advisor, right_advisor
 frequency: 1
 
+- #remove_advisor
 - @add_advisors: Add advisors
 
 @add_advisors
