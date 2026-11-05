@@ -56,12 +56,14 @@ go-to: rm_main
 title: Remove Mao Zedong
 choose-if: mao_zedong_advisor = 1
 on-arrival: mao_zedong_advisor = 0; ccp_dual_members_dissent += 5; n_advisors -= 1
+tags: remove_advisor
 go-to: rm_main
 
 @remove_zhu_de
 title: Remove Zhe De
 choose-if: zhu_de_advisor = 1
 on-arrival: zhu_de_advisor = 0; ccp_dual_members_dissent += 5; n_advisors -= 1
+tags: remove_advisor
 go-to: rm_main
 
 # Leftists
@@ -69,7 +71,8 @@ go-to: rm_main
 @remove_song_qingling
 title: Remove Song Qingling
 choose-if: song_qingling_advisor = 1
-on-arrival: song_zingling_advisor = 0; ccp_dual_members_dissent =+ 5; n_advisors -= 1
+on-arrival: song_zingling_advisor = 0; left_dissent =+ 5; n_advisors -= 1
+tags: remove_advisor
 go-to: rm_main
 
 
