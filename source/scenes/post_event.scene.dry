@@ -86,16 +86,16 @@ if (this.ui && this.ui.show_portraits) {
         }
     }
 }
+if (typeof window !== "undefined" && window.generateBar) {
+}
 !}
 
 go-to: events_choice if has_event = 1; main if has_event = 0
 
 = Week [+ week +] [+ month : month +] [+ year +]
 
-if (typeof window !== "undefined" && window.generateBar) {
-}
-
 @events_choice
 
+- #events
 
 # This scene is solely for updating numbers after events, and routing to special events.
