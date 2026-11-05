@@ -85,6 +85,8 @@ if (this.ui && this.ui.show_portraits) {
             im.url = cc.faceImage;
         }
     }
+// there's supposed to be another set of brackets here as per biennio rosso and dynamic but I don't know where
+// the opening bracket is so I left it out. fix when you get home
 !}
 
 go-to: events_choice if has_event = 1; main if has_event = 0 and difficulty >= 0; main.main_easy if has_event = 0 and difficulty < 0
