@@ -1,8 +1,8 @@
-title: Song Qingling
+title: Soong Qingling
 is-pinned-card: true
 tags: advisor, left
-card-image: img/portraits/SongQingling.jpg
-view-if: song_qingling_advisor = 1
+card-image: img/portraits/SoongQingling.jpg
+view-if: soong_qingling_advisor = 1
 new-page: true 
 
 = Song Qingling
