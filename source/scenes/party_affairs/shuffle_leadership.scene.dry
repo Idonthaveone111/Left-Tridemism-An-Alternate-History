@@ -378,7 +378,7 @@ go-to: advisor_menu
 @add_hh_kung
 title: H.H. Kung
 view-if: hh_kung_advisor = 0 and n_advisors < 3 and center_abandons = 0
-on-arrival: hh_kung_advisor = 0; = 1; n_advisors += 1
+on-arrival: hh_kung_advisor = 1; n_advisors += 1
 tags: center_advisor
 go-to: advisor_menu
 
