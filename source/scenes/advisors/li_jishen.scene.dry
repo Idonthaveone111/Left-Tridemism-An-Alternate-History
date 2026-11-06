@@ -1,0 +1,12 @@
+title: Li Jishen
+is-pinned-card: true
+tags: advisor, right
+card-image: img/portraits/LiJishen.jpg
+view-if: li_jishen_advisor = 1
+new-page: true 
+
+= Li Jishen
+
+A prominent Guangdong general and politician. Honestly maybe i'll get rid of this one it feels rather redundant.
+
+- @root: Return to main

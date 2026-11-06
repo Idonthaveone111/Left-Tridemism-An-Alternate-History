@@ -1,0 +1,12 @@
+title: Dai Jitao
+is-pinned-card: true
+tags: advisor, right
+card-image: img/portraits/DaiJitao.jpg
+view-if: dai_jitao_advisor = 1
+new-page: true 
+
+= Dai Jitao
+
+A journalist and writer with a reputation for conservatism and traditionalism, Dai Jitao has become a prominent voice on the right wing of the party, despite his somewhat controversial interpretations of Sun Yat-sen's political ideas.
+
+- @root: Return to main
