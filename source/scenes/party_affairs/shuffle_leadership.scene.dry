@@ -226,11 +226,19 @@ frequency: 1
 @CCP
 view-if: n_advisors < 3
 
+- #ccp_dual_members_advisor
+
 @leftists
 view-if: n_advisors < 3
+
+- #left_advisor
 
 @centrists
 view-if: n_advisors < 3
 
+- #center_advisor
+
 @rightists
 view-if: n_advisors < 3
+
+- #right_advisor
