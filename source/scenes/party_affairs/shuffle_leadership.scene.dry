@@ -242,3 +242,179 @@ view-if: n_advisors < 3
 view-if: n_advisors < 3
 
 - #right_advisor
+
+# Communists
+
+@add_tan_pingshan
+title: Tan Pingshan
+view-if: tan_pingshan_advisor
+on-arrival: tan_pingshan_advisor = 1; n_advisors += 1
+tags: ccp_dual_members_advisor
+go-to: advisor_menu
+
+@add_su_zhaozheng
+title: Su Zhaozheng
+view-if: su_zhaozheng_advisor = 0 and n_advisors < 3 and ccp_split = 0
+on-arrival: su_zhaozheng_advisor = 1; n_advisors += 1
+tags: ccp_dual_members_advisor
+go-to: advisor_menu
+
+@add_chen_duxiu
+title: Chen Duxiu
+view-if: chen_duxiu_advisor = 0 and n_advisors < 3 and ccp_split = 0
+on-arrival: chen_duxiu_advisor = 1; n_advisors += 1
+tags: ccp_dual_members_advisor
+go-to: advisor_menu
+
+@add_mao_zedong
+title: Mao Zedong
+view-if: mao_zedong_advisor = 0 and n_advisors < 3 and ccp_split = 0
+on-arrival: mao_zedong_advisor = 1; n_advisors += 1
+tags: ccp_dual_members_advisor
+go-to: advisor_menu
+
+@add_zhu_de
+title: Zhe De
+view-if: zhu_de_advisor = 0 and n_advisors < 3 and ccp_split = 0
+on-arrival: zhu_de_advisor = 1; n_advisors += 1
+tags: ccp_dual_members_advisor
+go-to: advisor_menu
+
+# Leftists
+
+@add_soong_qingling
+title: Soong Qingling
+view-if: soong_qingling_advisor = 0 and n_advisors < 3 and left_split = 0
+on-arrival: soong_qingling_advisor = 1; n_advisors += 1
+tags: left_advisor
+go-to: advisor_menu
+
+@add_wang_jingwei
+title: Wang Jingwei
+view-if: wang_jingwei_advisor = 0 and n_advisors < 3 and left_split = 0
+on-arrival: wang_jingwei_advisor = 1; n_advisors += 1
+tags: left_advisor
+go-to: advisor_menu
+
+@add_eugene_chen
+title: Eugene Chen
+view-if: eugene_chen_advisor = 0 and n_advisors < 3 and left_split = 0
+on-arrival: eugene_chen_advisor = 1; n_advisors += 1
+tags: left_advisor
+go-to: advisor_menu
+
+@add_deng_yanda
+title: Deng Yanda
+view-if: deng_yanda_advisor = 0 and n_advisors < 3 and left_split = 0
+on-arrival: deng_yanda_advisor = 1; n_advisors += 1
+tags: left_advisor
+go-to: advisor_menu
+
+@add_gu_mengyu
+title: Gu Mengyu
+view-if: gu_mengyu_advisor = 0 and n_advisors < 3 and left_split = 0
+on-arrival: gu_mengyu_advisor = 1; n_advisors += 1
+tags: left_advisor
+go-to: advisor_menu
+
+@add_chen_gongbo
+title: Chen Gongbo
+view-if: chen_gongbo_advisor = 0 and n_advisors < 3 and left_split = 0
+on-arrival: chen_gongbo_advisor = 1; n_advisors += 1
+tags: left_advisor
+go-to: advisor_menu
+
+@add_tang_shengzhi
+title: Tang Shengzhi
+view-if: tang_shengzhi_advisor = 0 and n_advisors < 3 and left_split = 0
+on-arrival: tang_shengzhi_advisor = 1; n_advisors += 1
+tags: left_advisor
+go-to: advisor_menu
+
+@add_he_xiangning
+title: He Xiangning
+view-if: he_xiangning_advisor = 0 and n_advisors < 3 and left_split = 0
+on-arrival: he_xiangning_advisor = 1; n_advisors += 1
+tags: left_advisor
+go-to: advisor_menu
+
+# centrists
+
+@add_sun_fo
+title: Sun Fo
+view-if: sun_fo_advisor = 0 and n_advisors < 3 and center_abandons = 0
+on-arrival: sun_fo_advisor = 1; n_advisors += 1
+tags: center_advisor
+go-to: advisor_menu
+
+@add_tv_soong
+title: T.V. Soong
+view-if: tv_soong_advisor = 0 and n_advisors < 3 and center_abandons = 0
+on-arrival: tv_soong_advisor = 1; n_advisors += 1
+tags: center_advisor
+go-to: advisor_menu
+
+@add_xu_qian
+title: Xu Qian
+view-if: xu_qian_advisor = 0 and n_advisors < 3 and center_abandons = 0
+on-arrival: xu_qian_advisor = 1; n_advisors += 1
+tags: center_advisor
+go-to: advisor_menu
+
+@add_tan_yankai
+title: Tan Yankai
+view-if: tan_yankai_advisor = 0 and n_advisors < 3 and center_abandons = 0
+on-arrival: tan_yankai_advisor = 1; n_advisors += 1
+tags: center_advisor
+go-to: advisor_menu
+
+@add_zhu_peide
+title: Zhu Peide
+view-if: zhu_peide_advisor = 0 and n_advisors < 3 and center_abandons = 0
+on-arrival: zhu_peide_advisor = 1; n_advisors += 1
+tags: center_advisor
+go-to: advisor_menu
+
+@add_hh_kung
+title: H.H. Kung
+view-if: hh_kung_advisor = 0 and n_advisors < 3 and center_abandons = 0
+on-arrival: hh_kung_advisor = 0; = 1; n_advisors += 1
+tags: center_advisor
+go-to: advisor_menu
+
+# rightists
+
+@add_jiang_jieshi
+title: Jiang Jieshi
+view-if: jiang_jieshi_advisor = 0 and n_advisors < 3 and right_split = 0
+on-arrival: jiang_jieshi_advisor = 1; n_advisors += 1
+tags: right_advisor
+go-to: advisor_menu
+
+@add_zhang_renjie
+title: Zhang Renjie
+view-if: zhang_renjie_advisor = 0 and n_advisors < 3 and right_split = 0
+on-arrival: zhang_renjie_advisor = 1; n_advisors += 1
+tags: right_advisor
+go-to: advisor_menu
+
+@add_li_jishen
+title: Li Jishen
+view-if: li_jishen_advisor = 0 and n_advisors < 3 and right_split = 0
+on-arrival: li_jishen_advisor = 1; n_advisors += 1
+tags: right_advisor
+go-to: advisor_menu
+
+@add_hu_hanmin
+title: Hu Hanmin
+view-if: hu_hanmin_advisor = 0 and n_advisors < 3 and right_split = 0
+on-arrival: hu_hanmin_advisor = 1; n_advisors += 1
+tags: right_advisor
+go-to: advisor_menu
+
+@add_dai_jitao
+title: Dai Jitao
+view-if: dai_jitao_advisor = 0 and n_advisors < 3 and right_split = 0
+on-arrival: dai_jitao_advisor = 1; n_advisors += 1
+tags: right_advisor
+go-to: advisor_menu
