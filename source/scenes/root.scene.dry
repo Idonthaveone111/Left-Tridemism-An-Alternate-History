@@ -73,22 +73,22 @@ Q.right_split = 0;
 
 // united front joever
 Q.united_front_broken = 0;
-Q.united_front_integrity = 0;
-Q.united_front_dissent = 0;
+Q.united_front_integrity = 75;
+Q.united_front_dissent = 2;
 Q.wuhan_nanjing_split = 0;
 
 // support for the revolution
-Q.rural_revolutionary_ccp = 0;
-Q.rural_revolutionary_kmt = 0;
-Q.urban_revolutionary_ccp = 0;
-Q.urban_revolutionary_kmt = 0;
+Q.rural_revolutionary_ccp = 35;
+Q.rural_revolutionary_kmt = 45;
+Q.urban_revolutionary_ccp = 55;
+Q.urban_revolutionary_kmt = 45;
 
-Q.average_revolution_united = 0; // averaged values of the united front kmt + ccp
-Q.average_revolution_split = 0; // averaged values of just the kmt
-Q.average_rural_revolution_united = 0; // averaged rural values with ccp
-Q.average_rural_revolution_split = 0; // averaged without ccp
-Q.average_urban_revolution_united = 0;
-Q.average_urban_revolution_split = 0;
+Q.average_revolution_united = 45; // averaged values of the united front kmt + ccp
+Q.average_revolution_split = 45; // averaged values of just the kmt
+Q.average_rural_revolution_united = 40; // averaged rural values with ccp
+Q.average_rural_revolution_split = 45; // averaged without ccp
+Q.average_urban_revolution_united = 50;
+Q.average_urban_revolution_split = 45;
 
 // revolutionary unrest
 Q.rural_unrest = 0;
