@@ -205,6 +205,27 @@ on-arrival: dai_jitao_advisor = 0; right_dissent += 5; n_advisors -= 1
 tags: remove_advisor
 go-to: rm_main
 
+@remove_vasily_blyukher
+title: Remove Vasily Blyukher
+view-if: vasily_blyukher_advisor_sov = 1
+on-arrival: vasily_blyukher_advisor_sov = 0; n_advisors_sov -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_mikhail_borodin
+title: Remove Mikhail Borodin
+view-if: mikhail_borodin_advisor_sov = 1
+on-arrival: mikhail_borodin_advisor_sov = 0; n_advisors_sov -= 1
+tags: remove_advisor
+go-to: rm_main
+
+@remove_mn_roy
+title: Remove M.N. Roy
+view-if: mn_roy_advisor_sov = 1
+on-arrival: mn_roy_advisor_sov = 0; n_advisors_sov -= 1
+tags: remove_advisor
+go-to: rm_main
+
 @add_advisors
 title: Add advisors
 view-if: n_advisors < 3
