@@ -10,11 +10,13 @@ Urban Revolutionary Fervor: [+ average_urban_revolution_united : fervor +]
 
 Rural Revolutionary Fervor: [+ average_rural_revolution_united : fervor +]
 
-Party: [+ resources +]
+Party Resources: [+ resources +]
 
 Monthly Party Budget: [+ dues +]
 
 Internal Dissent: [+ dissent_percent : dissent +]
+
+United Front Status: [? if not united_front_broken: [+ united_front_integrity : integrity +] ?][? if united_front_broken: Collapsed ?]
 
 = National Government
 
