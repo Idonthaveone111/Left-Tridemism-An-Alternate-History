@@ -205,6 +205,8 @@ on-arrival: dai_jitao_advisor = 0; right_dissent += 5; n_advisors -= 1
 tags: remove_advisor
 go-to: rm_main
 
+# soviet advisors
+
 @remove_vasily_blyukher
 title: Remove Vasily Blyukher
 view-if: vasily_blyukher_advisor_sov = 1
@@ -444,4 +446,27 @@ title: Dai Jitao
 view-if: dai_jitao_advisor = 0 and n_advisors < 3 and right_split = 0
 on-arrival: dai_jitao_advisor = 1; n_advisors += 1
 tags: right_advisor
+go-to: advisor_menu
+
+# soviet advisors
+
+@add_vasily_blyukher
+title: Vasily Blyukher
+view-if: vasily_blyukher_advisor_sov = 0 and n_advisors_sov < 1
+on-arrival: vasily_blyukher_advisor_sov = 1; n_advisors_sov += 1
+tags: soviet_advisor
+go-to: advisor_menu
+
+@add_mikhail_borodin
+title: Mikhail Borodin
+view-if: mikhail_borodin_advisor_sov = 0 and n_advisors_sov < 1
+on-arrival: mikhail_borodin_advisor_sov = 1; n_advisors_sov += 1
+tags: soviet_advisor
+go-to: advisor_menu
+
+@add_mn_roy
+title: M.N. Roy
+view-if: mn_roy_advisor_advisor_sov = 0 and n_advisors_sov < 1
+on-arrival: mn_roy_advisor_sov = 1; n_advisors_sov += 1
+tags: soviet_advisor
 go-to: advisor_menu
