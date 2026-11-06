@@ -1,1 +1,12 @@
+title: Vasily Blyukher
+is-pinned-card: true
+tags: advisor, soviet
+card-image: img/portraits/VasilyBlyukher.jpg
+view-if: vasily_blyukher_advisor_sov = 1
+new-page: true
 
+= Vasily Blyukher
+
+An officer in the Soviet Red Army, Vasily Blyukher, or Galen as he is known, has provided his military expertise to the NRA for several years. He has assisted in the planning of the Northern Expedition, and his continued service will be extremely useful in keeping our army in top shape.
+
+- @root: Return to Main
