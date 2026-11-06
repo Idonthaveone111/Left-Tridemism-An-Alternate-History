@@ -230,13 +230,13 @@ go-to: rm_main
 
 @add_advisors
 title: Add advisors
-view-if: n_advisors < 3 or n_advisors_sov < 1
+view-if: n_advisors < 3 || n_advisors_sov < 1
 unavailable-subtitle: Maximum of 3 advisors
 go-to: advisor_menu
 
 @advisor_menu
 title: Add other advisors.
-tags: ccp_dual_members_advisor, left_advisor, center_advisor, right_advisor, soviet
+tags: ccp_dual_members_advisor, left_advisor, center_advisor, right_advisor, soviet_advisor
 frequency: 1
 
 - @CCP: Add Communists
