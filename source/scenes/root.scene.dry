@@ -69,7 +69,7 @@ Q.constitutional_influence = 0;
 Q.ccp_split = 0;
 Q.left_split = 0;
 Q.center_abandons = 0;
-Q.right_abandons = 0;
+Q.right_split = 0;
 
 // united front joever
 Q.united_front_broken = 0;
