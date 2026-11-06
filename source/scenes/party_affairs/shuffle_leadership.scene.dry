@@ -245,7 +245,7 @@ view-if: n_advisors < 3
 - #right_advisor
 
 @soviet
-view-if: n_sov_advisors < 1
+view-if: n_advisors_sov < 1
 
 - #soviet_advisor
 
