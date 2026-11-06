@@ -213,13 +213,14 @@ go-to: advisor_menu
 
 @advisor_menu
 title: Add other advisors.
-tags: ccp_dual_members_advisor, left_advisor, center_advisor, right_advisor
+tags: ccp_dual_members_advisor, left_advisor, center_advisor, right_advisor, soviet
 frequency: 1
 
 - @CCP: Add Communists
 - @leftists: Add Leftists
 - @centrists: Add Centrists
 - @rightists: Add Rightists
+- @soviet: Add Soviet Advisors
 - @rm_main: Remove advisors instead.
 - @remove_none: Stop changing advisors.
 
@@ -242,6 +243,11 @@ view-if: n_advisors < 3
 view-if: n_advisors < 3
 
 - #right_advisor
+
+@soviet
+view-if: n_sov_advisors < 1
+
+- #soviet_advisor
 
 # Communists
 
