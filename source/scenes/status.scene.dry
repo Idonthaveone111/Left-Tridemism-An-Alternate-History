@@ -6,9 +6,7 @@ is-special: true
 
 Week [+ week +], [+ month : month +] [+ year +]
 
-Urban Revolutionary Fervor: [+ average_urban_revolution_united : fervor +]
-
-Rural Revolutionary Fervor: [+ average_rural_revolution_united : fervor +]
+Revolutionary Fervor: [? if not united_front_broken: [+ average_revolution_united : fervor +] ?][? if united_front_broken: [+ average_revolution_split : fervor +] ?]
 
 Party Resources: [+ resources +]
 
@@ -61,9 +59,9 @@ Sichuan: [+ sichuan_relation : relationships +]
 
 = Party Leadership
 
-CCP: Chen Duxiu (to dynamicize later)
+CCP: [+ ccp_leader +]
 
-[? if wuhan_nanjing_split and nanjing_kmt_leader == "Jiang Jieshi": Nanjing KMT: Jiang Jieshi ?]
+[? if wuhan_nanjing_split: Nanjing KMT: [+ nanjing_kmt_leader +] ?]
 
 Minor Republican Parties: Disorganized
 
@@ -71,7 +69,7 @@ Other: Other
 
 = Faction Leadership
 
-[? if guangdong_independent and guangdong_leader == "Li Jishen" : Guangdong: Li Jishen ?]
+[? if guangdong_independent: Guangdong: [+ guandong_leader +] ?]
 
 Guangxi: Huang Shaohong
 
