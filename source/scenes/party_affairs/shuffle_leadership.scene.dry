@@ -230,7 +230,7 @@ go-to: rm_main
 
 @add_advisors
 title: Add advisors
-view-if: n_advisors < 3
+view-if: n_advisors < 3 or n_advisors_sov < 1
 unavailable-subtitle: Maximum of 3 advisors
 go-to: advisor_menu
 
