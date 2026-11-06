@@ -1,20 +1,12 @@
 title: Next Week
 is-hand: true
 on-arrival: {!
-if (Q.advisor_action_timer <= 0 and Q.advisor_sov_action_timer <= 0) {
-    Q.pinnedCardsDescription = 'Advisors & Soviet Advisor actions are available';
-} else if (Q.advisor_action_timer == 1 and Q.advisor_sov_action_timer <= 0) {
-    Q.pinnedCardsDescription = 'Advisor action available in 1 week, Soviet Advisor action is available';
-} else if (Q.advisor_action_timer > 1 and Q.advisor_sov_action_timer <= 0) {
-    Q.pinnedCardsDescription = 'Advisor action available in ' + Q.advisor_action_timer + ' weeks, Soviet Advisor action is available';
-} else if (Q.advisor_action_timer <= 0 and Q.advisor_sov_action_timer == 1) {
-     Q.pinnedCardsDescription = 'Advisor action is available, Soviet Advisor action available in 1 week';
-} else if (Q.advisor_action_timer <= 0 and Q.advisor_sov_action_timer > 1) {
-     Q.pinnedCardsDescription = 'Advisor action is available, Soviet Advisor action available in ' + Q.advisor_sov_action_timer + ' weeks';
-} else if (Q.advisor_action_timer == 1 and Q.advisor_sov_action_timer == 1) {
-     Q.pinnedCardsDescription = 'Advisor action available in 1 week, Soviet Advisor action available in 1 week';
-} else if (Q.advisor_action_timer > 1 and Q.advisor_sov_action_timer > 1) {
-     Q.pinnedCardsDescription = 'Advisor action available in ' + Q.advisor_action_timer + ' weeks, Soviet Advisor action available in ' + Q.advisor_sov_action_timer + ' weeks';
+if (Q.advisor_action_timer <= 0) {
+    Q.pinnedCardsDescription = 'Advisors - an action is available.';
+} else if (Q.advisor_action_timer == 1) {
+    Q.pinnedCardsDescription = 'Advisors - next action available in 2 weeks.';
+} else {
+    Q.pinnedCardsDescription = 'Advisors - next action available in ' + Q.advisor_action_timer + ' months.';
 }
 !}
 max-cards: 4
