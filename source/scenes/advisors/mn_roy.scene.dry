@@ -1,1 +1,12 @@
+title: M.N. Roy
+is-pinned-card: true
+tags: advisor, soviet
+card-image: img/portraits/MNRoy.jpg
+view-if: mn_roy_advisor_sov = 1
+new-page: true
 
+= M.N. Roy
+
+A revolutionary of Indian origin, M.N. Roy is now a Comintern agent who has been sent to China to aid in the revolution. He dedicates most of his time to the Communist Party and to awakening the revolutionary spirit of the peasants.
+
+- @root: Return to Main
