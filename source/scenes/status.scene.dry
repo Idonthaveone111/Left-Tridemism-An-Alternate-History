@@ -20,12 +20,27 @@ United Front Status: [? if not united_front_broken: [+ united_front_integrity : 
 
 Internationally recognized Government: Beiyang Government
 
-Head of State: V.K. Wellington Koo
+President:  
 
-Head of Government: 
+Chairman: 
 
 = Economy
 
+Monthly budget: 
+
+Monetary Reserve: 
+
+Business confidence: 
+
+Inflation: 
+
+Unemployment: 
+
+Economic Growth: 
+
+Industrial Vitality: 
+
+Agricultural Vitality: 
 
 @politics
 
@@ -73,13 +88,13 @@ Other: Other
 
 Guangxi: Huang Shaohong
 
-Yunnan: [? if not yunnan_leader_victory: Yunnan Warlords ?][? if yunnan_leader_victory and yunnan_leader == "Long Yun" : Long Yun ?][? if yunnan_leader_victory and yunnan_leader == "Lu Han" : Lu Han ?]
+Yunnan: [+ yunnan_leader +]
 
 Shanxi: Yan Xishan
 
 Shaanxi: Feng Yuxiang
 
-Sichuan: Sichuan Warlords
+Sichuan: [+ sichuan_leader +]
 
 
 
@@ -97,6 +112,16 @@ Japanese Relations: [+ japan_relation : fopo_relation +]
 
 = Treaty Ports and Concessions
 
+Unequal Treaties:
+
+Trans-Manchuria Railway: 
+
+South Manchuria Railway: 
+
+Shanghai Concessions: 
+
+Hankou Concession: 
+
 @polls
 
 = Party Support
@@ -107,6 +132,72 @@ Japanese Relations: [+ japan_relation : fopo_relation +]
 
 Commander in Chief: 
 
+Total Army Strength (Thousands): 
+
+Materiel Quantity: 
+
+Supply Quality: 
+
+Morale: 
+
+= Enemy Strength
+
+
+
 @interior
 
-= Interior Reform Program
+# 
+
+Northern Expedition:
+
+= Political Program
+
+Constitution:
+
+Current Legislative Body:
+
+Corruption: 
+
+= Military
+
+Equipment Quality: 
+
+Doctrine: 
+
+= Labor Reforms
+
+Unions:
+
+Union Participation: 
+
+Workers Cooperatives: 
+
+Working Hours:
+
+Industrial Safety:
+
+= Rural Reconstruction
+
+Land Reform Program: 
+
+Agricultural Reorganization: 
+
+Mechanization: 
+
+= Education and Academia
+
+Illiteracy: 
+
+Language Reform: 
+
+School Funding: 
+
+Agricultural School Funding: 
+
+= Judiciary
+
+= 
+
+
+
+
