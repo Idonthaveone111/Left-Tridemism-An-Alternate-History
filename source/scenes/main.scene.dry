@@ -1,4 +1,4 @@
-title: Next Month
+title: Next Week
 is-hand: true
 on-arrival: {!
 if (Q.advisor_action_timer <= 0 and Q.advisor_sov_action_timer <= 0) {
