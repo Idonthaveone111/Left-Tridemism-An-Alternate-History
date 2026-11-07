@@ -1,1 +1,55 @@
+title: Party Disunity
+new-page: true
+is-card: true
+view-if: party_disunity_timer = 0 and (dissent >= 0.3 or (ccp_dual_members_dissent > 30 and not ccp_split) or (left_dissent > 30 and not left_split) or (center_dissent > 30 and not center_abandons) or (right_dissent > 30 and not right_split))
+card-image: img/disunity.jpg
+frequency: 200
+tags: party_affairs
+
+= Party Disunity
+
+The Kuomintang has never been a stranger to factionalism, but internal tensions as of late have been running particularly high as competing groups being vying for power much more openly. Something must be done about this before the party tears itself apart.
+
+[? if ccp_dual_members_dissent > 30 : The Communists are upset by our overly rightwing activities. ?]
+[? if left_dissent > 30 : The party left is coming to see the right as overly influential and openly reactionary. ?]
+[? if center_dissent > 30 : The party center is becoming worried at the increasing radicalism on the flanks and believes a readjustment is needed ?]
+[? if right_dissent > 30 : The party right is deeply suspicious of the party's increasing left-wing tilt ?]
+
+- @enforce_unity
+- @concessions_ccp
+- @concessions_left
+- @concessions_center
+- @concessions_right
+- @do_nothing
+- @easy_discard
+
+@enforce_unity
+on-arrival: ccp_dual_members_dissent -= 10; left_dissent -= 10; center_dissent -= 10; right_dissent -= 10
+
+We tamp down on dissent and force opponents to sit at the table. Though this quiets them down for the time being, resentment still lingers and dissenters may walk from the party.
+
+@concessions_ccp
+on-arrival: ccp_dual_members_dissent -= 10; right_dissent += 5
+
+We give concessions to the Communist representatives in the party, assuring them of our dedication to the revolution. This successfully quiets them, but the right looks on with suspicion
+
+@concessions_left
+on-arrival: left_dissent -= 10; right_dissent += 5
+
+We give concessions to the left-wing, promising to adopt more socialist measures. This successfully quiets them, but the right looks on with suspicion.
+
+@concessions_center
+on-arrival: center_dissent -= 10; left_dissent += 3; right_dissent += 3
+
+We promise to take a more moderate stance for the center of the party. This successfully quiets them, but neither the left nor the right are satisfied.
+
+@concessions_right
+on-arrival: right_dissent -= 10; left_dissent +=3; ccp_dual_members_dissent += 5
+
+We promise to take right-wing and conservative stances in the future, but this does not please the left.
+
+@do_nothing
+on-arrival: ccp_dual_members_dissent += 1; left_dissent += 1; center_dissent += 1; right_dissent += 1
+
+There is nothing we can realistically do. Hopefully debate can be healthy for the party.
 
