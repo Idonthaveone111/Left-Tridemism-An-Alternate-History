@@ -2,8 +2,6 @@ title: Post Event
 new-page: true
 on-arrival: {!
 
-const q = dendryUI.dendryEngine.state.qualities;
-
 // advance time
 if (Q.week_actions >= 2) {
 	Q.time += 1;
