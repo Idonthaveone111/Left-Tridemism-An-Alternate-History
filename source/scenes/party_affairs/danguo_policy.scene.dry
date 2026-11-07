@@ -1,1 +1,12 @@
+title: Outsider Parties
+choose-if: dangguo_policy_timer = 0
+unavailable-subtitle: It is too early to change this policy again.
+on-arrival: dangguo_policy_timer = 8
+
+= Outsider Parties
+
+Sun Yat-sen affirmed the need to maintain a strong, single-party state in order to see out the revolution and enact democratization in the future. However this has not stopped minor republican parties from appearing across China, and though small, these parties collectively may one day hold some sway. How should we approach these outsiders?
+
+- @root: We shouldn't change our stance at the moment
+- @ideology: Let us change a different stance
 
