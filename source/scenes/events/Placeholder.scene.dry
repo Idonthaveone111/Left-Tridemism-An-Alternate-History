@@ -6,4 +6,4 @@ on-arrival: {!
 // dont worry about it
 !}
 priority: 1
-max-visits: 5
+max-visits: 1
