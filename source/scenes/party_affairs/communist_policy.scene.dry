@@ -46,26 +46,53 @@ We continue our policy of supporting the United Front.
 @small_support_ccp
 title: The CCP are useful allies, but our parties are separate and distinct
 subtitle: Our causes are aligned for the moment and we should work together to achieve them, but the fundamental ideological differences between our parties are irreconcilable. 
-view-if: left_strength > right_strength
-choose-if: 
+view-if: united_front_policy != 0
+choose-if: left_strength > right_strength
 unavailable-subtitle: The party is too radicalized against Communism to support this policy
 on-arrival: ccp_dual_members_strength += 5; ccp_relation += 25; united_front_policy = 0
 
 The Communist Party make for useful allies in the National Revolution, but they must remember who is the junior partner in this relationship.
 
 @build_small_support_ccp
+title: Build up support for the United Front
+subtitle: The Communists, despite our differences, are useful allies and we need their support.
+view-if: united_front_policy != 0
+choose-if: right_strength > left_strength
+on-arrival: ccp_dual_members_strength += 5; ccp_relation += 25;
+
+The party is still aligned against the United Front, we must work to change their minds
 
 @cont_small_support_ccp
+title: Continue maintaining the United Front
+subtitle: Our causes are aligned for the moment and we should work together to achieve them, but the fundamental ideological differences between our parties are irreconcilable. 
+view-if: united_front_policy = 0
+on-arrival: ccp_dual_members_strength += 5; ccp_relation += 25;
+
+The Communist Party make for useful allies in the National Revolution, but they must remember who is the junior partner in this relationship.
 
 @anti_ccp
 title: The CCP have become a danger and can no longer be tolerated
 subtitle: The Communist Party and their Soviet puppetmasters are little more than tools of imperialist incursion and societal destruction.
-view-if: right_strength > left_strength
+view-if: united_front_policy != 1
+choose-if: right_strength > left_strength
 unavailable-subtitle: The CCP is too useful an ally to abandon
 on-arrival: ccp_dual_members_strength -= 5; ccp_relation -= 25; united_front_policy = 1
 
 We must rid the party and China of Communist influence as quickly and as thoroughly as possible.
 
 @build_anti_ccp
+title: Polemicize against the CCP
+subtitle: The Communists cannot be trusted, we just need to make everyone else realize that.
+view-if: united_front_policy != 1
+choose-if: left_strength > right_strength
+on-arrival: ccp_dual_members_strength -= 5; ccp_relation -= 25
+
+By propagandizing against the Communists and their allies, we can sway opinions against them.
 
 @cont_ant_ccp
+title: Continue anti-Communist policy
+subtitle: Rally the party against Communist influence
+view-if: united_front_policy = 1
+on-arrival: ccp_dual_members_strength -= 5; ccp_relation -= 25
+
+We must rid the party and China of Communist influence as quickly and as thoroughly as possible.
