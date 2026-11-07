@@ -1,1 +1,12 @@
+title: Land Reform Policy
+choose-if: land_reform_policy_timer = 0
+unavailable-subtitle: It is too early to change this policy again.
+on-arrival: land_reform_policy_timer = 8
+
+= Land Reform
+
+The issue of land reform is a practically ancient issue in China, and one that Sun Yat-sen and other revolutionary leaders did not overlook. However, how exactly we should enact land reform, and to what extend, is still an open question.
+
+- @root: We shouldn't change our stance at the moment
+- @ideology: Let us change a different stance
 
