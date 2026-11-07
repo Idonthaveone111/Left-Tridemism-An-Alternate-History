@@ -228,6 +228,7 @@ Q.soldiers_other = 0;
 
 // miscellaneous variables
 Q.radio = 0;
+Q.united_front_policy = 0;
 
 // economics
 // oh god
