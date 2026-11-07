@@ -44,7 +44,7 @@ The party has decided that a provisional constitution is necessary to formulate 
 @support_yes_constitution
 view-if: constitution_policy_position != 1 and center_strength < (left_strength + right_strength)
 choose-if: center_strength < (left_strength + right_strength)
-on-arriival: center_strength += 5
+on-arrival: center_strength += 5
 
 We must build up support for a constitutionalist position.
 
