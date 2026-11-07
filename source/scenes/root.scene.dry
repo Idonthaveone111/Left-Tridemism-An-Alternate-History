@@ -226,9 +226,7 @@ Q.soldiers_ccp = 5;
 Q.soldiers_minor_republican_parties = 0;
 Q.soldiers_other = 0;
 
-// miscellaneous variables
-Q.radio = 0;
-Q.united_front_policy = 0;
+
 
 // economics
 // oh god
@@ -245,10 +243,15 @@ Q.timers = ['advisor_action', 'advisor_sov_action', 'shuffle_leadership', 'ideol
 Q.ideology_timer = 0;
 Q.communist_policy_timer = 0;
 Q.constitution_policy_timer = 0;
+Q.constitution_policy_position = 0;
 Q.mass_party_policy_timer = 0;
 Q.land_reform_policy_timer = 0;
 Q.dangguo_policy_timer = 0;
 
+
+// miscellaneous variables
+Q.radio = 0;
+Q.united_front_policy = 0;
 Q.media_timer = 0;
 Q.party_organisations_timer = 0;
 Q.rally_timer = 0;
