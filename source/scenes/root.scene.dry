@@ -226,6 +226,8 @@ Q.soldiers_ccp = 5;
 Q.soldiers_minor_republican_parties = 0;
 Q.soldiers_other = 0;
 
+// miscellaneous variables
+Q.radio = 0;
 
 // economics
 // oh god
