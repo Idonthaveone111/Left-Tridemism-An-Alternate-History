@@ -1,1 +1,83 @@
+title: Media and Propaganda
+new-page: true
+is-card: true
+tags: party_affairs
+view-if: media_timer <= 0
+card-image: img/media.jpg
+on-arrival: month_actions += 1; media_timer += 6;
+
+= Media
+
+A critical instrument of any modern movement, mass media is the mouthpiece by which the people are rallied to the cause. Fortunately, there are nearly countless newspapers and magazines aligned with us or our allies that we can leverage.
+
+- @kmt_alone
+- @with_ccp
+- @rightwing
+- @town_criers
+- @more_criers
+- @radio
+- @more_radio
+- @return: We should not do anything with media at the moment.
+- @easy_discard
+- @cancel_advisor_action
+
+@kmt_alone
+title: Expand printing of party-aligned newspapers and periodicals.
+subtitle: These papers focus principally on the KMT and its primary causes, above the ideological squabbles of left and right.
+on-arrival: resources += 1
+
+@with_ccp
+title: Coordinate media campaigns with left-wing journalist organs.
+subtitle: We will emphasize the party's revolutionary politics, which will hopefully draw in radical workers and youth as well as ingratiate ourselves to our left-wing allies.
+on-arrival: ccp_relation += 10
+
+@rightwing
+title: Appeal to conservatism and moderation.
+subtitle: By emphasizing gradual reform and moderation, we will draw in those skeptical to our revolutionary aims and methods, especially those in business circles. However the left may not appreciate this tack.
+on-arrival: nanjing_kmt_relation += 5
+
+@town_criers
+title: Hire town criers to spread the news.
+subtitle: -2 resources
+choose-if: resources >= 2
+unavailable-subtitle: Not enough resources.
+view-if: radio = 0
+on-arrival: radio += 1; resources -= 2
+
+With illiteracy endemic across China, especially in poor and rural communities, hiring town criers to announce news and propaganda aloud will be an effective way to appeal to those who cannot read a paper.
+
+@more_criers
+title: Hire additional town criers.
+subtitle: -1 resource
+choose-if: resources >= 1
+unavailable-subtitle: Not enough resources.
+view-if: radio = 1
+on-arrival: radio += 1; resources -= 1
+
+With the success of our news criers, we should expand and regularize this initiative. Soon, news can travel by word of mouth to any corner of China.
+
+@radio
+title: Found a government radio broadcaster
+subtitle: -3 resources
+choose-if: resources >= 3
+unavailable-subtitle: Not enough resources.
+view-if: radio = 2
+on-arrival: radio += 1; resources -= 3
+
+A novel technology in China, radio presents a new means by which media and propaganda can reach the ears of the masses. Of course, very few radio recievers exist in China, especially so outside of the major cities. But by furnishing the installation of communal radios in towns and villages, we can reach a wider audience even if the average person cannot yet access a radio.
+
+@more_radio
+title: Expand radio broadcasting
+subtitle: -3 resources
+choose-if: resources >= 3
+unavailable-subtitle: Not enough resources.
+view-if: radio = 3
+on-arrival: radio += 1; resources -= 3
+
+We shall expand our broadcasting service with new, more powerful transmitters in cities and towns across our territory. What better symbol of modernity in China can there be besides a brand new radio?
+
+
+
+
+
 
