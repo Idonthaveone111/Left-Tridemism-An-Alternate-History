@@ -1,1 +1,45 @@
+title: Political Rally
+new-page: true
+is-card: true
+tags: party_affairs
+view-if: rally_timer <= 0
+on-arrival: week_actions += 1; rally_timer = 6
+card-image: img/rally.jpg
+
+= Political Rally
+
+Mass rallies are an effective way to whip up enthusiasm in support of the revolution. What should our message to the crowd be?
+
+- @united_front: Rally in support of the United Front
+- @nationalism: Rally against imperialist oppression
+- @democracy: Rally for legal and constitutional governance
+- @welfare: Rally for economic reform and prosperity for all
+- @local: A mixture of various local and national concerns that resonate most with the audience.
+- @easy_discard
+
+@united_front
+on-arrival: ccp_dual_members_strength += 5
+
+We rally alongside Communist cadres, stirring up the crowd with a show of revolutionary unity and the promise of societal change and equalization. The middle and bourgeois classes look on with suspicion, however.
+
+@nationalism
+on-arrival: west_relation -= 1
+
+We stage a rally protesting imperialist domination of the country. Foreign citizens living in nearby concessions watch nervously.
+
+@democracy
+on-arrival: center_strength += 5
+
+We rally on promises of constitionalism and democratization. While the people are broadly supportive, this stance is somewhat complicated by the fact of our status as a one-party state.
+
+@welfare
+on-arrival: left_strength += 5
+
+The poverty of the masses is unbearable, and our promises to revitalize the economy and uplift the people are met with eager ears.
+
+@local
+on-arrival: center_strength += 5
+
+Our organizers on the ground feel out the mood of the audience and respond to the most prevalent issues of the local area.
+
 
