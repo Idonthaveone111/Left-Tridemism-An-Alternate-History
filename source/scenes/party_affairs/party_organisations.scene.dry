@@ -1,1 +1,30 @@
+title: Party Organisations
+new-page: true
+is-card: true
+tags: party_affairs
+view-if: party_organisations_timer <= 0
+on-arrival: week_actions += 1; party_organisations_timer = 3;
+card-image: img/PartyOrganisations.jpg
+max-visits: 16
 
+= Party Organisations
+
+- @newspapers: Fund more newspapers and journalists.
+- @nothing: Do not increase funding for any program.
+- @easy_discard
+
+@newspapers
+choose-if: resources > 0
+unavailable-subtitle: Not enough resources. (Need 1)
+subtitle: -1 resources
+on-arrival: resources -= 1; media_timer = 0;
+go-to: media
+
+
+
+
+@nothing
+
+We do not fund any party organisations.
+
+- @return: Continue...
