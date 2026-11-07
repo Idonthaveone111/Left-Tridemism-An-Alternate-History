@@ -1,13 +1,52 @@
 title: The Constitution Question
 choose-if: constitution_policy_timer = 0
 unavailable-subtitle: It is too early to change this policy again.
-on-arrival: constitution_policy_timer = 8
+on-arrival: constitution_policy_timer = 12
 
 = The Constitution Question
 
-Sun Yat-sen maintained that a constitution should not be created until the period of civilian rule and democratization begins. However given current circumstances and our need to build lasting institutions, perhaps we should reconsider this policy?
+By the end of Sun Yat-sen's tenure as Chairman of the party, he maintained that the premature adoption of the 1912 constitution had been a significant factor in the Republic's fall to factionalism and corruption. The old order had not been properly expunged and the people were not yet prepared for their new civil duties. To mitigate this, Sun proposed that a new constitution should not be drafted until the unification of the nation and the education of the populace by the revolutionary government.
+
+However, as Sun's exact stances were never entirely precise and circumstances have certainly changed over the years, various voices within the party have argued for revisions to the party line. Some argue that a constitution would legitimize and anchor the revolutionary government in proper law and order and lay the framework for future democratization, while opponents, including the orthodox views of Hu Hanmin, reject the idea of an early constitution in order to not stratify power. 
+
+Should we change our official stance?
 
 Current constitution policy: 
 
-- @root: We shouldn't change our stance at the moment
+
+- @no_constitution: We should maintain Sun's doctrine
+- @support_no_constitution: We should maintain Sun's doctrine
+- @yes_constitution: A provisional constitution is needed after all
+- @support_yes_constitution: A provisional constitution is needed after all
+- @root: Let's defer this decision until later
 - @ideology: Let us change a different stance
+
+@no_constitution
+choose-if: center_strength < left_strength and center_strength < right_strength and constitution_policy_position != 0
+on-arrival: constitution_policy_position = 0
+
+We will maintain Sun Yat-sen's stance to hold off the constitution until after the completion of political tutelage.
+
+@support_no_constitution
+view-if: constitution_policy_position != 0
+choose-if: center_strength > left_strength and center_strength > right_strength
+on-arrival: left_strength += 5; right_strength += 5
+
+Though we have aligned the other way, opinion against the provisional constitution is shifting once again, though more work needs to be done.
+
+@yes_constitution
+choose-if: center_strength > (left_strength + right_strength) and constitution_policy_position != 1
+unavailable-subtitle: The constitutionalists are not yet strong enough to convince the party.
+on-arrival: constitution_policy_position = 1
+
+The party has decided that a provisional constitution is necessary to formulate the coming course of the revolution. Though dissent remains, especially in the wings of the party.
+
+@support_yes_constitution
+view-if: constitution_policy_position != 1 and center_strength < (left_strength + right_strength)
+choose-if: center_strength < (left_strength + right_strength)
+on-arriival: center_strength += 5
+
+We must build up support for a constitutionalist position.
+
+
+
