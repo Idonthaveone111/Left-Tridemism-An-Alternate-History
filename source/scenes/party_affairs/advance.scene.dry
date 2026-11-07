@@ -3,6 +3,7 @@ new-page: true
 is-card: true
 tags: party_affairs
 card-image: img/ideology.jpg
+on-arrival: week_actions += 2
 
 - @option: Advance Time
 
