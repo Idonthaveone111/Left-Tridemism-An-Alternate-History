@@ -1,1 +1,71 @@
+title: United Front Policy
+choose-if: united_front_policy_timer = 0 and not united_front_broken
+unavailable-subtitle: [? if united_front_policy_timer != 0: It is too early to change this policy again ?][? if united_front_broken: The United Front has already collapsed ?]
+on-arrival: united_front_policy_timer = 8
 
+= United Front Policy
+
+- @support_ccp
+- @build_support_ccp
+- @cont_support_ccp
+- @small_support_ccp
+- @build_small_support_ccp
+- @cont_small_support_ccp
+- @anti_ccp
+- @build_anti_ccp
+- @cont_ant_ccp
+- @root: We shouldn't change our stance at the moment
+- @ideology: Let us change a different stance
+
+@support_ccp
+title: Fully embrace our Communist partners
+subtitle: Our revolutionary struggle is one in the same, despite any differences. 
+view-if: united_front_policy != -1
+choose-if: (ccp_dual_members_strength + left_strength) > (center_strength + right_strength)
+unavailable-subtitle: This position is far too radical for our party to stomach
+on-arrival: ccp_dual_members_strength += 20; ccp_relation += 20; united_front_policy = -1
+
+We announce a policy of total cooperation with the Communist Party, and the unity of our struggle to liberate China from its oppression.
+
+@build_support_ccp
+title: Increase support for the United Front
+subtitle: Our revolutionary struggle is one in the same, despite any differences. 
+view-if: united_front_policy != -1 and (ccp_dual_members_strength + left_strength) < (center_strength + right_strength)
+on-arrival: left_strength += 5
+
+We are building support in the party for the United Front so that we may eventually build a stronger bond between our parties.
+
+@cont_support_ccp
+title: Fully embrace our Communist partners
+subtitle: Our revolutionary struggle is one in the same, despite any differences. 
+view-if: united_front_policy = -1
+on-arrival: left_strength += 5
+
+We continue our policy of supporting the United Front.
+
+@small_support_ccp
+title: The CCP are useful allies, but our parties are separate and distinct
+subtitle: Our causes are aligned for the moment and we should work together to achieve them, but the fundamental ideological differences between our parties are irreconcilable. 
+view-if: left_strength > right_strength
+choose-if: 
+unavailable-subtitle: The party is too radicalized against Communism to support this policy
+on-arrival: ccp_dual_members_strength += 5; ccp_relation += 25; united_front_policy = 0
+
+The Communist Party make for useful allies in the National Revolution, but they must remember who is the junior partner in this relationship.
+
+@build_small_support_ccp
+
+@cont_small_support_ccp
+
+@anti_ccp
+title: The CCP have become a danger and can no longer be tolerated
+subtitle: The Communist Party and their Soviet puppetmasters are little more than tools of imperialist incursion and societal destruction.
+view-if: right_strength > left_strength
+unavailable-subtitle: The CCP is too useful an ally to abandon
+on-arrival: ccp_dual_members_strength -= 5; ccp_relation -= 25; united_front_policy = 1
+
+We must rid the party and China of Communist influence as quickly and as thoroughly as possible.
+
+@build_anti_ccp
+
+@cont_ant_ccp
