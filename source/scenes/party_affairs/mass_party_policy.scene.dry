@@ -1,1 +1,13 @@
+title: The Mass Party
+choose-if: mass_party_policy_timer = 0
+on-arrival: mass_party_policy_timer = 8
+unavailable-subtitle: It is too early to change this policy again.
+
+= The Mass Party
+
+The Kuomintang is a party dedicated to the liberation of all the oppressed people of China, however we should still define a policy in regards to the common laborers and peasants and their role in the party and the revolution.
+
+- @root: We shouldn't change our stance at the moment
+- @ideology: Let us change a different stance
+
 
