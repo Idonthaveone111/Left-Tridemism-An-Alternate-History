@@ -1,1 +1,11 @@
+title: The Constitution Question
+choose-if: constitution_policy_timer = 0
+unavailable-subtitle: It is too early to change this policy again.
+on-arrival: constitution_policy_timer = 8
 
+= The Constitution Question
+
+Sun Yat-sen maintained that a constitution should not be created until the period of civilian rule and democratization begins. However given current circumstances and our need to build lasting institutions, perhaps we should reconsider this policy?
+
+- @root: We shouldn't change our stance at the moment
+- @ideology: Let us change a different stance
