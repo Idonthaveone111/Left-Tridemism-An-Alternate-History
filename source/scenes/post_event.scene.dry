@@ -15,7 +15,7 @@ if (Q.dissent < 0) {
 }
 
 // advance time
-if (Q.week_actions >= 1) {
+if (Q.week_actions >= 2) {
 	Q.time += 1;
 	Q.week += 1;
 	Q.week_actions = 0;
