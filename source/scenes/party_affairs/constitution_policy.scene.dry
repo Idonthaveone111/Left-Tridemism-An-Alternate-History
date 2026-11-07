@@ -22,7 +22,7 @@ Current constitution policy:
 - @ideology: Let us change a different stance
 
 @no_constitution
-choose-if: center_strength < left_strength and center_strength < right_strength and constitution_policy_position != 0
+choose-if: center_strength < left_strength and center_strength < right_strength or constitution_policy_position = 0
 on-arrival: constitution_policy_position = 0
 
 We will maintain Sun Yat-sen's stance to hold off the constitution until after the completion of political tutelage.
