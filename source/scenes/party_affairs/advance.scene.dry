@@ -1,1 +1,10 @@
+title: Debug Advance Time
+new-page: true
+is-card: true
+tags: party_affairs
+card-image: img/ideology.jpg
 
+- @option: Advance Time
+
+@option
+go-to: post_event
