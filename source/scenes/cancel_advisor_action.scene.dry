@@ -7,8 +7,12 @@ if (Q.week_actions > 0) {
 }
 if (Q.last_advisor_action) {
     Q.advisor_action_timer = 0;
-    Q.advisor_sov_action_timer = 0;
     Q.last_advisor_action = 0;
+}
+
+if (Q.last_advisor_sov_action) {
+    Q.advisor_sov_action_timer = 0;
+    Q.last_advisor_sov_action = 0;
 }
 
 if (Q.last_cabinet_action) {
