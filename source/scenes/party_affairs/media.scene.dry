@@ -4,7 +4,7 @@ is-card: true
 tags: party_affairs
 view-if: media_timer <= 0
 card-image: img/media.jpg
-on-arrival: week_actions += 1; media_timer += 6;
+on-arrival: week_actions += 1; media_timer += 6
 
 = Media
 
