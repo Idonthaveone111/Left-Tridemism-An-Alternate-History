@@ -24,31 +24,37 @@ The Kuomintang has never been a stranger to factionalism, but internal tensions 
 - @easy_discard
 
 @enforce_unity
+title: Enforce Unity
 on-arrival: ccp_dual_members_dissent -= 10; left_dissent -= 10; center_dissent -= 10; right_dissent -= 10
 
 We tamp down on dissent and force opponents to sit at the table. Though this quiets them down for the time being, resentment still lingers and dissenters may walk from the party.
 
 @concessions_ccp
+title: Give Concessions to the Communists
 on-arrival: ccp_dual_members_dissent -= 10; right_dissent += 5
 
 We give concessions to the Communist representatives in the party, assuring them of our dedication to the revolution. This successfully quiets them, but the right looks on with suspicion
 
 @concessions_left
+title: Give Concessions to the Left
 on-arrival: left_dissent -= 10; right_dissent += 5
 
 We give concessions to the left-wing, promising to adopt more socialist measures. This successfully quiets them, but the right looks on with suspicion.
 
 @concessions_center
+title: Give Concessions to the Center
 on-arrival: center_dissent -= 10; left_dissent += 3; right_dissent += 3
 
 We promise to take a more moderate stance for the center of the party. This successfully quiets them, but neither the left nor the right are satisfied.
 
 @concessions_right
+title: Give Concessions to the Right
 on-arrival: right_dissent -= 10; left_dissent +=3; ccp_dual_members_dissent += 5
 
 We promise to take right-wing and conservative stances in the future, but this does not please the left.
 
 @do_nothing
+title: Do Nothing
 on-arrival: ccp_dual_members_dissent += 1; left_dissent += 1; center_dissent += 1; right_dissent += 1
 
 There is nothing we can realistically do. Hopefully debate can be healthy for the party.
