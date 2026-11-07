@@ -240,14 +240,16 @@ Q.military_industry = 0; // could be useful
 Q.rural_vitality = 0; // represents the general wellbeing of agriculture and rural villages, might effect growth and budget etc
 
 // timers
-Q.timers = ['advisor_action', 'advisor_sov_action', 'shuffle_leadership', 'ideology', 'communist_policy', 'constitution_policy', 'mass_party_policy', 'land_reform_policy', 'dangguo_policy'];
+Q.timers = ['advisor_action', 'advisor_sov_action', 'shuffle_leadership', 'ideology', 'communist_policy', 'constitution_policy', 'mass_party_policy', 'land_reform_policy', 'dangguo_policy', 'media'];
 
-Q.ideology_timer = 0
+Q.ideology_timer = 0;
 Q.communist_policy_timer = 0;
 Q.constitution_policy_timer = 0;
 Q.mass_party_policy_timer = 0;
 Q.land_reform_policy_timer = 0;
 Q.dangguo_policy_timer = 0;
+
+Q.media_timer = 0;
 
 
 
