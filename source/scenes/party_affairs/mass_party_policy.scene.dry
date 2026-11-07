@@ -5,11 +5,29 @@ unavailable-subtitle: It is too early to change this policy again.
 
 = The Mass Party
 
-The Kuomintang is a party dedicated to the liberation of all the oppressed people of China, however we should still define a policy in regards to the common laborers and peasants and their role in the party and the revolution.
+The Kuomintang is a party dedicated to the liberation and propserity of all the oppressed people of China, however we should still define a policy in regards to the various peoples and their role in the party and the revolution.
 
 Current stance on the mass party: 
 
+
+
+- @workers_and_peasants
+- @mussolini
 - @root: We shouldn't change our stance at the moment
 - @ideology: Let us change a different stance
 
+@workers_and_peasants
+title: The Kuomintang must be a party dedicated to the workers and peasants!
+view-if: ((ccp_dual_members_strength > (center_strength + right_strength)) or (mass_party_policy_position = -1))
+choose-if: ccp_dual_members_strength > (center_strength + right_strength)
+on-arrival: mass_party_policy_position = -1; ccp_dual_members_strength += 15
 
+In the name of equality and socialism, the Kuomintang must be dedicated to the workers, not towards the parasitic bourgeois and landlords. This is an almost explicitly Communist position, and one which will earn many enemies to our right.
+
+@mussolini
+title: The base of the Kuomintang lies with *all* of China!
+view-if: ((ccp_dual_members_strength < (center_strength + right_strength)) or (mass_party_policy_position = 0))
+choose-if: ccp_dual_members_strength < (center_strength + right_strength)
+on-arrival: mass_party_policy_position = 0; center_strength += 10
+
+Just as Sun Yat-sen intended, western distinctions of "class" have not yet developed in China. As such, the concept of class warfare as envisioned by the Marxists is not applicable, and the revolutionary struggle in China must encompass all peoples against imperialist oppression.
