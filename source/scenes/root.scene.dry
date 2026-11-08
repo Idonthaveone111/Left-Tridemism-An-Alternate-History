@@ -239,7 +239,12 @@ Q.tariffs = 0; // I think tariffs would've been administered by the maritime cus
 
 
 // timers
-Q.timers = ['advisor_action', 'advisor_sov_action', 'shuffle_leadership', 'ideology', 'communist_policy', 'constitution_policy', 'mass_party_policy', 'land_reform_policy', 'dangguo_policy', 'media', 'party_organisations', 'rally', 'party_disunity', 'fundraising', 'overseas_funding'];
+Q.timers = ['advisor_action', 'advisor_sov_action', 'shuffle_leadership', 
+  'ideology', 'communist_policy', 
+  'constitution_policy', 'mass_party_policy', 'land_reform_policy', 
+  'dangguo_policy', 'media', 
+  'party_organisations', 'rally', 'party_disunity', 
+  'fundraising', 'overseas_funding'];
 
 Q.ideology_timer = 0;
 Q.communist_policy_timer = 0;
@@ -247,6 +252,12 @@ Q.constitution_policy_timer = 0;
 Q.mass_party_policy_timer = 0;
 Q.land_reform_policy_timer = 0;
 Q.dangguo_policy_timer = 0;
+Q.media_timer = 0;
+Q.party_organisations_timer = 0;
+Q.rally_timer = 0;
+Q.party_disunity_timer = 0;
+Q.fundraising_timer = 0;
+Q.overseas_funding_timer = 0;
 
 
 // miscellaneous variables
@@ -256,12 +267,7 @@ Q.constitution_policy_position = 0;
 Q.mass_party_policy_position = 0;
 Q.land_reform_policy_position = 0;
 Q.dangguo_policy_position = 0;
-Q.media_timer = 0;
-Q.party_organisations_timer = 0;
-Q.rally_timer = 0;
-Q.party_disunity_timer = 0;
-Q.fundraising_timer = 0;
-Q.overseas_funding_timer = 0;
+
 
 
 
