@@ -9,6 +9,14 @@ Sun Yat-sen affirmed the need to maintain a strong, single-party state in order 
 
 Current stance on outside parties:
 
-- @root: We shouldn't change our stance at the moment
-- @ideology: Let us change a different stance
+- @stop: We shouldn't change our stance at the moment
+- @back: Let us change a different stance
 
+
+@stop
+on-arrival: dangguo_policy_timer = 4
+go-to: root
+
+@back
+on-arrival: dangguo_policy_timer = 0
+go-to: ideology
