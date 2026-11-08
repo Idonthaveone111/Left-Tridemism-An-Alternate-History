@@ -18,8 +18,8 @@ Current United Front policy:
 - @anti_ccp
 - @build_anti_ccp
 - @cont_ant_ccp
-- @root: We shouldn't change our stance at the moment
-- @ideology: Let us change a different stance
+- @stop: We shouldn't change our stance at the moment
+- @back: Let us change a different stance
 
 @support_ccp
 title: Fully embrace our Communist partners
@@ -100,3 +100,10 @@ view-if: united_front_policy = 1
 on-arrival: ccp_dual_members_strength -= 5; ccp_relation -= 25
 
 We must rid the party and China of Communist influence as quickly and as thoroughly as possible.
+
+@stop
+on-arrival: land_reform_policy_timer = 4
+
+@back
+on-arrival: land_reform_policy_timer = 0
+go-to: ideology
