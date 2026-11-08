@@ -1,1 +1,44 @@
+title: Party Funding
+new-page: true
+view-if: fundraising_timer <= 0
+on-arrival: fundraising_timer = 8
+is-card: true
+card-image: img/fundraising.jpg
+tags: party_affairs
 
+= Party Funding
+
+Unlike some political parties, the Kuomintang does not charge memberships dues, in part to avoid the bureaucratic burden this would incur given our very large member rolls. However the party still needs a dedicated budget to function. Fortunately, due to our position as the ruling party of the Revolutionary Government, we are able to direct funding from other sources into the party coffers.
+
+- @budget_funding_small
+- @budget_funding_large
+- @overseas
+- @donations
+- @root: The budget will suffice for now
+- @easy_discard
+
+@budget_funding_small
+title: Transfer a portion of the state budget to the party organs
+subtitle: We will gain 2 party resources. Funding converts at a rate of 2 resources per 1 budget.
+on-arrival: budget -= 1; resources += 2
+
+@budget_funding_large
+title: Transfer a larger portion of the state budget to the party organs
+subtitle: We will gain 4 party resources. Funding converts at a rate of 2 resources per 1 budget
+on-arrival: budget -= 2; resources += 4
+
+@overseas
+title: Solicit donations from overseas communities
+subtitle: We will gain 2 party resources
+choose-if: overseas_funding_timer = 0
+unavailable-subtitle: We have performed this action too recently
+on-arrival: resources += 2; overseas_funding_timer = 12
+
+There are large communities of overseas Chinese who are sympathetic to our movement. We have contacts who will reach out and collect financial support from these groups. But note that they may become less sympathetic to us depending on our ideological alignment and the national situation.
+
+@donations
+title: Collect donations from citizens and organizations
+subtitle: We will gain 2 party resources. "Voluntary" fundraising probably should not be repeated often
+on-arrival: resources += 2
+
+We have sent party officials out to wealthy residents, business groups, and clubs in order to collect donations. While straightforward, this likely will not ingratiate ourselves to the local community, especially if we do not deliver results.
