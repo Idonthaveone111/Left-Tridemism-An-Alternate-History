@@ -9,9 +9,36 @@ Sun Yat-sen affirmed the need to maintain a strong, single-party state in order 
 
 Current stance on outside parties:
 
+- @one_party_state
+- @outsider_system
+- @incorporation
 - @stop: We shouldn't change our stance at the moment
 - @back: Let us change a different stance
 
+@one_party_state
+title: The Kuomintang is and must remain the only political authority.
+subtitle: [? if not united_front_broken: Except for the Communist Party ?]
+view-if: dangguo_policy_position != 0
+choose-if: (center_strength > left_strength)
+on-arrival: dangguo_policy_position = 0
+
+As the Revolutionary Steward, the KMT comes above all else, including the state. While China is destined for multi-party democracy, for now there can only be one voice speaking for a united China.
+
+@outsider_system
+title: Perhaps outsider parties can be organized under an advisory committee
+view-if: dangguo_policy_position != -1
+choose-if: (left_strength > center_strength)
+on-arrival: dangguo_policy_position = -1
+
+Although the KMT, as the revolutionary party, must remain at the top until the end of political tutelage, there is value in outside voices to prevent stagnation and cronyism. An advisory board should be created that will grant these outside parties a voice, just not an overly loud one.
+
+@incorporation
+title: Perhaps the party has room to grow
+view-if: dangguo_policy_position != 1
+choose-if (ccp_dual_members_strength > right_strength
+on-arrival: dangguo_policy_position = 1
+
+Although the KMT, as the revolutionary party, must remain at the top until the end of political tutelage, there is room for the party to grow. Prospective outsiders should be drawn into the party and allowed to vitalize the political scene with fresh ideas.
 
 @stop
 on-arrival: dangguo_policy_timer = 4
