@@ -103,6 +103,7 @@ We must rid the party and China of Communist influence as quickly and as thoroug
 
 @stop
 on-arrival: united_front_policy_timer = 4
+go-to: root
 
 @back
 on-arrival: united_front_policy_timer = 0
