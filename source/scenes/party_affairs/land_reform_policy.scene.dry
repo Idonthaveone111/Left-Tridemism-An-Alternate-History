@@ -38,7 +38,7 @@ title: A program of gradual reforms to reduce injustice will suffice
 view-if: land_reform_policy_position != 1
 choose-if: (right_strength > left_strength + ccp_dual_members_strength)
 unavailable-subtitle: Such a tepid proposal is intolerable to the left-wing of the party
-on-arrival land_reform_policy_position = 1
+on-arrival: land_reform_policy_position = 1
 
 The rural elite compromises the backbone of the agricultural, and thus Chinese, economy. Though injustice must be resolved, care must be taken to not alienate the landed classes. The government will incentivize land sales, but will primarily fall back on cheap credit for peasants and agricultural modernization.
 
