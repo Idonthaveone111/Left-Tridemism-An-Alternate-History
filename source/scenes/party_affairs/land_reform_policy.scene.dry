@@ -44,6 +44,7 @@ The rural elite compromises the backbone of the agricultural, and thus Chinese, 
 
 @stop
 on-arrival: land_reform_policy_timer = 4
+go-to: root
 
 @back
 on-arrival: land_reform_policy_timer = 0
