@@ -102,8 +102,8 @@ on-arrival: ccp_dual_members_strength -= 5; ccp_relation -= 25
 We must rid the party and China of Communist influence as quickly and as thoroughly as possible.
 
 @stop
-on-arrival: land_reform_policy_timer = 4
+on-arrival: united_front_policy_timer = 4
 
 @back
-on-arrival: land_reform_policy_timer = 0
+on-arrival: united_front_policy_timer = 0
 go-to: ideology
