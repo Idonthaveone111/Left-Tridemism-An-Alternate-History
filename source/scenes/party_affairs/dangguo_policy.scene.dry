@@ -35,7 +35,7 @@ Although the KMT, as the revolutionary party, must remain at the top until the e
 @incorporation
 title: Perhaps the party has room to grow
 view-if: dangguo_policy_position != 1
-choose-if: (ccp_dual_members_strength > right_strength
+choose-if: (ccp_dual_members_strength > right_strength)
 on-arrival: dangguo_policy_position = 1
 
 Although the KMT, as the revolutionary party, must remain at the top until the end of political tutelage, there is room for the party to grow. Prospective outsiders should be drawn into the party and allowed to vitalize the political scene with fresh ideas.
