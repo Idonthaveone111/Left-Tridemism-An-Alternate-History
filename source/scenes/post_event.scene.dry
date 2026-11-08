@@ -10,7 +10,6 @@ if (Q.week_actions >= 2) {
 	if (Q.week >= 5) {
 		Q.month += 1;
 		Q.week = 1;
-		Q.resources += Q.dues;
 	}
 	if (Q.month >= 13) {
         Q.month = 1;
