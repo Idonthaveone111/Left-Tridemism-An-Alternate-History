@@ -13,8 +13,8 @@ Current stance on the mass party:
 
 - @workers_and_peasants
 - @mussolini
-- @root: We shouldn't change our stance at the moment
-- @ideology: Let us change a different stance
+- @stop: We shouldn't change our stance at the moment
+- @back: Let us change a different stance
 
 @workers_and_peasants
 title: The Kuomintang must be a party dedicated to the workers and peasants!
@@ -31,3 +31,11 @@ choose-if: ccp_dual_members_strength < (center_strength + right_strength)
 on-arrival: mass_party_policy_position = 0; center_strength += 10
 
 Just as Sun Yat-sen intended, western distinctions of "class" have not yet developed in China. As such, the concept of class warfare as envisioned by the Marxists is not applicable, and the revolutionary struggle in China must encompass all peoples against imperialist oppression.
+
+@stop
+on-arrival: mass_party_policy_timer = 4
+go-to: root
+
+@back
+on-arrival: mass_party_policy_timer = 0
+go-to: ideology
