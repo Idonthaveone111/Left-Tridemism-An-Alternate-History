@@ -22,7 +22,7 @@ choose-if: (ccp_dual_members_strength > (center_strength + right_strength)) and 
 unavailable-subtitle: This proposal is far too radical for the party to tolerate
 on-arrival: land_reform_policy_position = -1
 
-In order to build an equal and modern China, the reactionary power base of the landlords and rural despots must be destroyed. A radical program of land equalization and uncompensated seizures should be enacted to return land to the peasants and build a strong and independent rural economy.
+In order to build an equal and modern China, the reactionary power base of the landlords and rural despots must be destroyed. A radical program of land equalization and uncompensated seizures, combined with other rent cap reforms, while incentivizing the formation of agricultural cooperatives and collectives, will grant economic independence to the farmers and increase efficiency and production. 
 
 @moderate_land_reform
 title: Land reform must be a peaceful and legal process, just as Sun Yat-sen devised
@@ -31,7 +31,7 @@ choose-if: (center_strength > ccp_dual_members_strength) and (center_Strength > 
 unavailable-subtitle: Radicalism has taken hold in the party to such an extent that even this propsal is deemed unrealistic
 on-arrival: land_reform_policy_position = 0
 
-Referred to by Dr. Sun as "Land to the Tiller," this program calls for land sales based on Georgist principles, as well as tax reductions, legal rights, credits, and agricultural modernization. It emphasizes peaceful and gradual reform so as to not stir up great societal unrest or mass violence.
+Referred to by Dr. Sun as "Land to the Tiller," this program calls for land sales based on Georgist principles, an emphasis on cooperatization, as well as tax reductions, legal rights, credits, and agricultural modernization. It emphasizes peaceful and gradual reform so as to not stir up great societal unrest or mass violence.
 
 @conservative_land_reform
 title: A program of gradual reforms to reduce injustice will suffice
