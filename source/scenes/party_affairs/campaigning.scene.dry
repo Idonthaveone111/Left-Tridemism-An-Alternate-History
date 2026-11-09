@@ -1,1 +1,12 @@
+title: Campaigning
+new-page: true
+view-if: campaigning_timer <= 0
+on-arrival: week_actions += 1; campaigning_timer = 4
+is-card: true
+card-image: img/campaigning.jpg
+frequency: 100
+tags: party_affairs
 
+= Campaigning
+
+Although official elections will not be held until the third phase of the revolution, we nonetheless rely on the support of the people to sustain our movement. 
