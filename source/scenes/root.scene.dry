@@ -244,7 +244,8 @@ Q.timers = ['advisor_action', 'advisor_sov_action', 'shuffle_leadership',
   'constitution_policy', 'mass_party_policy', 'land_reform_policy', 
   'dangguo_policy', 'media', 
   'party_organisations', 'rally', 'party_disunity', 
-  'fundraising', 'overseas_funding'];
+  'fundraising', 'overseas_funding',
+  'campaigning'];
 
 Q.ideology_timer = 0;
 Q.communist_policy_timer = 0;
@@ -258,6 +259,7 @@ Q.rally_timer = 0;
 Q.party_disunity_timer = 0;
 Q.fundraising_timer = 0;
 Q.overseas_funding_timer = 0;
+Q.campaigning_timer = 0;
 
 
 // miscellaneous variables
