@@ -124,7 +124,7 @@ Q.yunnan_leader_victory = 0; //For when someone unified Yunnan aka long yun or l
 Q.west_relation = 5;
 Q.japan_relation = 4;
 Q.soviet_relation = 7;
-Q.internationally_recognized_china = "Beiyang Government";
+Q.recognized_gov = "Beiyang Government";
 // Nationalist Government
 
 Q.soviet_aid = 0; // soviet guns equipment and money
