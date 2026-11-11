@@ -38,7 +38,7 @@ Economic Growth: [+ economic_growth +]
 
 Industrial Vitality: [+ industrial_score +]
 
-Agricultural Vitality: 
+Agricultural Vitality: [+ rural_vitality +]
 
 @politics
 
