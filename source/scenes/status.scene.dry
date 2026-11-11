@@ -20,7 +20,7 @@ United Front Status: [? if not united_front_broken: [+ united_front_integrity : 
 
 Internationally Recognized Government: [+ recognized_gov +]
 
-[? if internationally_recognized_china == "Beiyang Government": President: [+ northern_government_leader +] ?][? if internationally_recognized_china == "Nationalist Government": Chairman: [+ national_chairman +] ?]
+[? if recognized_gov == "Beiyang Government": President: [+ northern_government_leader +] ?][? if recognized_gov == "Nationalist Government": Chairman: [+ national_chairman +] ?]
 
 = Economy
 
