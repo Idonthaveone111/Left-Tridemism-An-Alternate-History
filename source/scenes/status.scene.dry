@@ -18,27 +18,25 @@ United Front Status: [? if not united_front_broken: [+ united_front_integrity : 
 
 = National Government
 
-Internationally recognized Government: Beiyang Government
+Internationally recognized Government: [ + internationally_recognized_china +]
 
-President:  
-
-Chairman: 
+[? if internationally_recognized_china == "Beiyang Government": President: [+ northern_government_leader +] ?][? if internationally_recognized_china == "Nationalist Government": Chairman: [+ national_chairman +] ?]
 
 = Economy
 
-Monthly budget: 
+Monthly budget: [+ budget +]
 
-Monetary Reserve: 
+Monetary Reserve: [+ economic_growth +]
 
-Business confidence: 
+Business confidence: [+ industrialist_unrest +]
 
-Inflation: 
+Inflation: [+ inflation +]
 
-Unemployment: 
+Unemployment: [+ unemployment +]
 
-Economic Growth: 
+Economic Growth: [+ economic_growth +]
 
-Industrial Vitality: 
+Industrial Vitality: [+ industrial_score +]
 
 Agricultural Vitality: 
 
@@ -47,6 +45,8 @@ Agricultural Vitality:
 = Party Status
 
 National Capital: [? if current_capital == "guangzhou": Guangzhou ?][? if current_capital == "wuhan": Wuhan ?][? if current_capital == "nanjing": Nanjing ?]
+
+Party Chairman: [+ party_chairman +]
 
 = Inter-party Relations
 
