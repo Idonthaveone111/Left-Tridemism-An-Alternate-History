@@ -17,6 +17,7 @@ max-cards: 6
 - @military
 - @govt
 - #advisor
+- #soviet_advisor
 - @shuffle_leadership_pinned
 
 @party
