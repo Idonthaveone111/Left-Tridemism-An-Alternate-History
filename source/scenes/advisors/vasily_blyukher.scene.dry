@@ -1,6 +1,6 @@
 title: Vasily Blyukher
 is-pinned-card: true
-tags: advisor, soviet
+tags: soviet_advisor
 card-image: img/portraits/VasilyBlyukher.jpg
 view-if: vasily_blyukher_advisor_sov = 1
 new-page: true
