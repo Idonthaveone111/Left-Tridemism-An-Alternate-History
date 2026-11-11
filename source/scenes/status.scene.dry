@@ -18,7 +18,7 @@ United Front Status: [? if not united_front_broken: [+ united_front_integrity : 
 
 = National Government
 
-Internationally recognized Government: [ + internationally_recognized_china +]
+Internationally recognized Government: [+ internationally_recognized_china +]
 
 [? if internationally_recognized_china == "Beiyang Government": President: [+ northern_government_leader +] ?][? if internationally_recognized_china == "Nationalist Government": Chairman: [+ national_chairman +] ?]
 
