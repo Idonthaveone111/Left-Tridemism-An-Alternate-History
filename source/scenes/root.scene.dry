@@ -113,15 +113,18 @@ Q.shanxi_yan_leader = "Yan Xishan";
 Q.shaanxi_feng_leader = "Feng Yuxiang";
 Q.minor_republican_parties_leader = "Minor Republican Parties";
 Q.other_leader = "Other";
+Q.northern_government_leader = "V.K. Wellington Koo";
 
 // warlord stuff
 Q.guangdong_independent = 0; //Li Jishen declares independence
 Q.yunnan_leader_victory = 0; //For when someone unified Yunnan aka long yun or lu han or some tang jiyao guy
 
+
 // foreign powers
 Q.west_relation = 5;
 Q.japan_relation = 4;
 Q.soviet_relation = 7;
+Q.internationally_recognized_china = "Beiyang Government";
 
 Q.soviet_aid = 0; // soviet guns equipment and money
 
@@ -167,7 +170,7 @@ Q.soldiers = 3;
 //Classes and Parties Lists
 Q.classes = ['peasants', 'landlords', 'workers', 'middle_class', 'intellectuals', 'bourgeois', 'soldiers']; // intellectuals includes students
 Q.parties = ['kmt', 'nanjing_kmt', 'ccp', 'minor_republican_parties', 'other'];
-Q.parties_2 = ['yunnan', 'sichuan', 'guangdong', 'guangxi', 'sichuan', 'shanxi', 'shaanxi'] // idk man
+Q.parties_2 = ['yunnan', 'sichuan', 'guangdong', 'guangxi', 'sichuan', 'shanxi', 'shaanxi', 'northern_government'] // idk man
 // the "warlord" parties hopefully should not be relevant to popularity stats but im not sure if that's possible yet
 
 // party popularities
