@@ -1,6 +1,6 @@
 title: Mikhail Borodin
 is-pinned-card: true
-tags: advisor, soviet
+tags: soviet_advisor
 card-image: img/portraits/MikhailBorodin.jpg
 view-if: mikhail_borodin_advisor_sov = 1
 new-page: true
