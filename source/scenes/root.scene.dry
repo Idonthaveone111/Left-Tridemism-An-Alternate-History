@@ -90,11 +90,6 @@ Q.average_rural_revolution_split = 45; // averaged without ccp
 Q.average_urban_revolution_united = 50;
 Q.average_urban_revolution_split = 45;
 
-// revolutionary unrest
-Q.rural_unrest = 0;
-Q.urban_unrest = 0;
-Q.industrialist_unrest = 0;
-
 // organizations
 // inter-party relations
 Q.ccp_relation = 65;
@@ -225,10 +220,16 @@ Q.soldiers_other = 0;
 // oh god
 Q.budget = 0;
 Q.inflation = 0; // I think I will make this figure qualitative instead of quanitative (i.e. deflationary, stable, low, medium etc) cuz this data does *not* exist lol
-Q.growth = 0;
+Q.economic_growth = 0;
+Q.unemployment = 0;
 Q.industrial_score = 0; // kinda just a generic score
 Q.military_industry = 0; // could be useful
 Q.rural_vitality = 0; // represents the general wellbeing of agriculture and rural villages, might effect growth and budget etc
+
+// revolutionary unrest
+Q.rural_unrest = 0;
+Q.urban_unrest = 0;
+Q.industrialist_unrest = 0;
 
 // Tax rates relative to November 1926 baseline
 Q.rural_tax_upper = 0;
