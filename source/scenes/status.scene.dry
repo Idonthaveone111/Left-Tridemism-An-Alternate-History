@@ -58,6 +58,16 @@ Minor Republican Parties: [+ minor_republican_parties_relation : relationships +
 
 Other: [+ other_relation : relationships +]
 
+= Party Leadership
+
+CCP: [+ ccp_leader +]
+
+[? if wuhan_nanjing_split: Nanjing KMT: [+ nanjing_kmt_leader +] ?]
+
+Minor Republican Parties: Disorganized
+
+Other: Other
+
 = Independent Province Relations
 
 [? if guangdong_independent: Guangdong: [+ guangdong_relation : relationships +] ?]
@@ -71,16 +81,6 @@ Shanxi: [+ shanxi_yan_relation : relationships +]
 Shaanxi: [+ shaanxi_feng_relation : relationships +]
 
 Sichuan: [+ sichuan_relation : relationships +]
-
-= Party Leadership
-
-CCP: [+ ccp_leader +]
-
-[? if wuhan_nanjing_split: Nanjing KMT: [+ nanjing_kmt_leader +] ?]
-
-Minor Republican Parties: Disorganized
-
-Other: Other
 
 = Faction Leadership
 
