@@ -1,6 +1,6 @@
 title: M.N. Roy
 is-pinned-card: true
-tags: advisor, soviet
+tags: soviet_advisor
 card-image: img/portraits/MNRoy.jpg
 view-if: mn_roy_advisor_sov = 1
 new-page: true
