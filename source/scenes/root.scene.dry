@@ -136,6 +136,7 @@ Q.soviet_aid = 0; // soviet guns equipment and money
 // ill figure it out later
 Q.current_capital = "guangzhou";
 Q.party_chairman = "Central Executive Committee";
+Q.national_chairman = "Tan Yankai";
 
 // national reforms
 Q.banking_reform = 0;
