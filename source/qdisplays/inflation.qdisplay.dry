@@ -1,1 +1,10 @@
 
+(..-20) Severe deflation
+(-20..0) Deflation
+(0..10) Stable
+(10..30) Mild
+(30..50) Elevated
+(50..75) High
+(75..90) Very high
+(90..110) Extremely high
+(110..) Hyper
