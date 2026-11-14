@@ -28,9 +28,9 @@ Monthly budget: [+ budget +]
 
 Monetary Reserve: [+ economic_growth +]
 
-Business confidence: [+ industrialist_unrest +]
+Business confidence: [+ industrialist_unrest : integrity +]
 
-Inflation: [+ inflation +]
+Inflation: [+ inflation : inflation +]
 
 Unemployment: [+ unemployment +]
 
