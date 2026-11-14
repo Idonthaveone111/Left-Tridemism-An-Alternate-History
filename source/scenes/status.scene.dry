@@ -28,17 +28,15 @@ Monthly budget: [+ budget +]
 
 Monetary Reserve: [+ economic_growth +]
 
-Business confidence: [+ industrialist_unrest : integrity +]
-
 Inflation: [+ inflation : inflation +]
 
-Unemployment: [+ unemployment +]
+Unemployment: [+ unemployment +]%
 
 Economic Growth: [+ economic_growth +]
 
-Industrial Vitality: [+ industrial_score +]
+Business confidence: [+ industrialist_unrest : integrity +]
 
-Agricultural Vitality: [+ rural_vitality +]
+Rural Vitality: [+ rural_vitality +]
 
 @politics
 
@@ -47,6 +45,14 @@ Agricultural Vitality: [+ rural_vitality +]
 National Capital: [? if current_capital == "guangzhou": Guangzhou ?][? if current_capital == "wuhan": Wuhan ?][? if current_capital == "nanjing": Nanjing ?]
 
 Party Chairman: [+ party_chairman +]
+
+CCP Dual Members Strength: [+ ccp_dual_members_strength : strength +], Dissent: [+ ccp_dual_members_dissent : dissent ]
+
+Left Strength: [+ left_strength : strength +], Dissent: [+ left_dissent : dissent ]
+
+Center Strength: [+ center_strength : strength +], Dissent: [+ center_dissent : dissent ]
+
+Right Strength: [+ right_strength : strength +], Dissent: [+ right_dissent : dissent ]
 
 = Inter-party Relations
 
