@@ -46,6 +46,8 @@ National Capital: [? if current_capital == "guangzhou": Guangzhou ?][? if curren
 
 Party Chairman: [+ party_chairman +]
 
+# 
+
 CCP Dual Members Strength: [+ ccp_dual_members_strength : strength +], Dissent: [+ ccp_dual_members_dissent : dissent +]
 
 Left Strength: [+ left_strength : strength +], Dissent: [+ left_dissent : dissent +]
