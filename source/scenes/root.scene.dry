@@ -224,7 +224,8 @@ Q.soldiers_other = 0;
 
 // economics
 // oh god
-Q.budget = 0;
+Q.budget = 0; // monthly income minus expenses
+Q.reserve = 0; // Reserve money in the treasury or debts
 Q.inflation = 0; // I think I will make this figure qualitative instead of quanitative (i.e. deflationary, stable, low, medium etc) cuz this data does *not* exist lol
 Q.economic_growth = 0;
 Q.unemployment = 0;
